@@ -1,0 +1,6437 @@
+{
+ "name": "Sticker Library",
+ "license": "CC0-1.0",
+ "themes": [
+  {
+   "id": "girly-pop",
+   "title": "Girly Pop",
+   "style": "photo",
+   "description": "Pink Y2K glam: disco balls, bows, cherries, lattes.",
+   "count": 18
+  },
+  {
+   "id": "cozy-home",
+   "title": "Cozy Home",
+   "style": "photo",
+   "description": "Pink and sage home decor: lamps, pillows, vases, plants.",
+   "count": 34
+  },
+  {
+   "id": "cottagecore",
+   "title": "Cottagecore",
+   "style": "photo",
+   "description": "Florals, teacups, gingham and wildflowers.",
+   "count": 22
+  },
+  {
+   "id": "witchy",
+   "title": "Witchy",
+   "style": "photo",
+   "description": "Moody antiques: candles, crystals, roses, a witch hat.",
+   "count": 19
+  },
+  {
+   "id": "streetwear",
+   "title": "Streetwear",
+   "style": "photo",
+   "description": "Chrome stars, vinyl, skateboards and late-night vibes.",
+   "count": 17
+  },
+  {
+   "id": "desktop",
+   "title": "Desktop",
+   "style": "photo",
+   "description": "90s computer-desk nostalgia: floppies, tapes, boombox.",
+   "count": 12
+  },
+  {
+   "id": "mission-control",
+   "title": "Mission Control",
+   "style": "illustrated",
+   "description": "Retro space program: planets, rockets, badges.",
+   "count": 22
+  },
+  {
+   "id": "rpg",
+   "title": "RPG",
+   "style": "illustrated",
+   "description": "Fantasy quest kit: potions, maps, shields, treasure.",
+   "count": 27
+  },
+  {
+   "id": "deep-sea",
+   "title": "Deep Sea",
+   "style": "illustrated",
+   "description": "Ocean research: sea creatures, dive gear, specimen jars.",
+   "count": 32
+  },
+  {
+   "id": "study-club",
+   "title": "Study Club",
+   "style": "watercolor",
+   "description": "Soft watercolor study desk: books, pens, coffee.",
+   "count": 24
+  },
+  {
+   "id": "spa",
+   "title": "Spa",
+   "style": "watercolor",
+   "description": "Calm self-care: candles, oils, stones and tea.",
+   "count": 18
+  },
+  {
+   "id": "pixel",
+   "title": "Pixel",
+   "style": "pixel-art",
+   "description": "Cozy pixel-art farm: animals, crops, cottage life.",
+   "count": 34
+  },
+  {
+   "id": "cat-cafe",
+   "title": "Cat Cafe",
+   "style": "illustrated",
+   "description": "Cats, coffee and pastries in a cozy cafe.",
+   "count": 23
+  },
+  {
+   "id": "letters",
+   "title": "Ransom Letters",
+   "style": "collage",
+   "description": "Pink cut-out magazine letters, a to z.",
+   "count": 73
+  }
+ ],
+ "sprites": [
+  {
+   "id": "girly-pop/pink-latte-cup",
+   "name": "pink latte cup",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/pink-latte-cup.png",
+   "width": 584,
+   "height": 466,
+   "tags": [
+    "cafe",
+    "coffee",
+    "cup",
+    "drink",
+    "latte",
+    "photo",
+    "pink"
+   ],
+   "thumb": "thumbs/girly-pop/pink-latte-cup.webp"
+  },
+  {
+   "id": "girly-pop/empire-state-building",
+   "name": "empire state building",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/empire-state-building.png",
+   "width": 318,
+   "height": 881,
+   "tags": [
+    "building",
+    "city",
+    "empire",
+    "new-york",
+    "nyc",
+    "photo",
+    "state"
+   ],
+   "thumb": "thumbs/girly-pop/empire-state-building.webp"
+  },
+  {
+   "id": "girly-pop/green-dumbbells",
+   "name": "green dumbbells",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/green-dumbbells.png",
+   "width": 657,
+   "height": 390,
+   "tags": [
+    "dumbbells",
+    "fitness",
+    "green",
+    "gym",
+    "photo",
+    "weights"
+   ],
+   "thumb": "thumbs/girly-pop/green-dumbbells.webp"
+  },
+  {
+   "id": "girly-pop/manifest-book-stack",
+   "name": "manifest book stack",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/manifest-book-stack.png",
+   "width": 424,
+   "height": 437,
+   "tags": [
+    "book",
+    "manifest",
+    "photo",
+    "reading",
+    "stack",
+    "study"
+   ],
+   "thumb": "thumbs/girly-pop/manifest-book-stack.webp"
+  },
+  {
+   "id": "girly-pop/matcha-iced-latte",
+   "name": "matcha iced latte",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/matcha-iced-latte.png",
+   "width": 236,
+   "height": 399,
+   "tags": [
+    "cafe",
+    "coffee",
+    "cold",
+    "drink",
+    "iced",
+    "latte",
+    "matcha",
+    "photo",
+    "tea"
+   ],
+   "thumb": "thumbs/girly-pop/matcha-iced-latte.webp"
+  },
+  {
+   "id": "girly-pop/pink-disco-ball",
+   "name": "pink disco ball",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/pink-disco-ball.png",
+   "width": 353,
+   "height": 349,
+   "tags": [
+    "ball",
+    "disco",
+    "photo",
+    "pink"
+   ],
+   "thumb": "thumbs/girly-pop/pink-disco-ball.webp"
+  },
+  {
+   "id": "girly-pop/pink-martini",
+   "name": "pink martini",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/pink-martini.png",
+   "width": 294,
+   "height": 345,
+   "tags": [
+    "cocktail",
+    "drink",
+    "martini",
+    "photo",
+    "pink"
+   ],
+   "thumb": "thumbs/girly-pop/pink-martini.webp"
+  },
+  {
+   "id": "girly-pop/rose-gold-headphones",
+   "name": "rose gold headphones",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/rose-gold-headphones.png",
+   "width": 271,
+   "height": 335,
+   "tags": [
+    "audio",
+    "flower",
+    "gold",
+    "headphones",
+    "music",
+    "photo",
+    "plant",
+    "rose"
+   ],
+   "thumb": "thumbs/girly-pop/rose-gold-headphones.webp"
+  },
+  {
+   "id": "girly-pop/black-cat",
+   "name": "black cat",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/black-cat.png",
+   "width": 246,
+   "height": 373,
+   "tags": [
+    "animal",
+    "black",
+    "cat",
+    "kitty",
+    "pet",
+    "photo"
+   ],
+   "thumb": "thumbs/girly-pop/black-cat.webp"
+  },
+  {
+   "id": "girly-pop/bow-bag-charm",
+   "name": "bow bag charm",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/bow-bag-charm.png",
+   "width": 286,
+   "height": 290,
+   "tags": [
+    "bag",
+    "bow",
+    "charm",
+    "photo"
+   ],
+   "thumb": "thumbs/girly-pop/bow-bag-charm.webp"
+  },
+  {
+   "id": "girly-pop/good-things-ahead-candle",
+   "name": "good things ahead candle",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/good-things-ahead-candle.png",
+   "width": 268,
+   "height": 281,
+   "tags": [
+    "ahead",
+    "candle",
+    "decor",
+    "good",
+    "light",
+    "photo",
+    "things"
+   ],
+   "thumb": "thumbs/girly-pop/good-things-ahead-candle.webp"
+  },
+  {
+   "id": "girly-pop/pink-yoga-mat",
+   "name": "pink yoga mat",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/pink-yoga-mat.png",
+   "width": 429,
+   "height": 269,
+   "tags": [
+    "fitness",
+    "mat",
+    "photo",
+    "pink",
+    "wellness",
+    "yoga"
+   ],
+   "thumb": "thumbs/girly-pop/pink-yoga-mat.webp"
+  },
+  {
+   "id": "girly-pop/tarot-card-deck",
+   "name": "tarot card deck",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/tarot-card-deck.png",
+   "width": 282,
+   "height": 277,
+   "tags": [
+    "card",
+    "cards",
+    "deck",
+    "magic",
+    "photo",
+    "tarot"
+   ],
+   "thumb": "thumbs/girly-pop/tarot-card-deck.webp"
+  },
+  {
+   "id": "girly-pop/cherries-with-bow",
+   "name": "cherries with bow",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/cherries-with-bow.png",
+   "width": 235,
+   "height": 211,
+   "tags": [
+    "bow",
+    "cherries",
+    "food",
+    "fruit",
+    "photo",
+    "with"
+   ],
+   "thumb": "thumbs/girly-pop/cherries-with-bow.webp"
+  },
+  {
+   "id": "girly-pop/rose-quartz-heart",
+   "name": "rose quartz heart",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/rose-quartz-heart.png",
+   "width": 154,
+   "height": 149,
+   "tags": [
+    "crystal",
+    "flower",
+    "gem",
+    "heart",
+    "love",
+    "photo",
+    "plant",
+    "quartz",
+    "rose"
+   ],
+   "thumb": "thumbs/girly-pop/rose-quartz-heart.webp"
+  },
+  {
+   "id": "girly-pop/dream-big-polaroid",
+   "name": "dream big polaroid",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/dream-big-polaroid.png",
+   "width": 962,
+   "height": 1224,
+   "tags": [
+    "big",
+    "dream",
+    "memory",
+    "photo",
+    "polaroid"
+   ],
+   "thumb": "thumbs/girly-pop/dream-big-polaroid.webp"
+  },
+  {
+   "id": "girly-pop/pink-green-running-shoe",
+   "name": "pink green running shoe",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/pink-green-running-shoe.png",
+   "width": 1375,
+   "height": 898,
+   "tags": [
+    "fitness",
+    "green",
+    "photo",
+    "pink",
+    "running",
+    "shoe",
+    "sneaker"
+   ],
+   "thumb": "thumbs/girly-pop/pink-green-running-shoe.webp"
+  },
+  {
+   "id": "cozy-home/pink-mushroom-lamp",
+   "name": "pink mushroom lamp",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-mushroom-lamp.png",
+   "width": 166,
+   "height": 217,
+   "tags": [
+    "decor",
+    "lamp",
+    "light",
+    "mushroom",
+    "photo",
+    "pink"
+   ],
+   "thumb": "thumbs/cozy-home/pink-mushroom-lamp.webp"
+  },
+  {
+   "id": "cozy-home/pink-twisted-candles",
+   "name": "pink twisted candles",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-twisted-candles.png",
+   "width": 121,
+   "height": 239,
+   "tags": [
+    "candles",
+    "decor",
+    "light",
+    "photo",
+    "pink",
+    "twisted"
+   ],
+   "thumb": "thumbs/cozy-home/pink-twisted-candles.webp"
+  },
+  {
+   "id": "cozy-home/wavy-art-print",
+   "name": "wavy art print",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/wavy-art-print.png",
+   "width": 164,
+   "height": 234,
+   "tags": [
+    "art",
+    "photo",
+    "print",
+    "wavy"
+   ],
+   "thumb": "thumbs/cozy-home/wavy-art-print.webp"
+  },
+  {
+   "id": "cozy-home/pink-boucle-armchair",
+   "name": "pink boucle armchair",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-boucle-armchair.png",
+   "width": 362,
+   "height": 300,
+   "tags": [
+    "armchair",
+    "boucle",
+    "chair",
+    "furniture",
+    "photo",
+    "pink"
+   ],
+   "thumb": "thumbs/cozy-home/pink-boucle-armchair.webp"
+  },
+  {
+   "id": "cozy-home/pink-gingham-ruffle-pillow",
+   "name": "pink gingham ruffle pillow",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-gingham-ruffle-pillow.png",
+   "width": 236,
+   "height": 224,
+   "tags": [
+    "cushion",
+    "decor",
+    "gingham",
+    "photo",
+    "pillow",
+    "pink",
+    "ruffle"
+   ],
+   "thumb": "thumbs/cozy-home/pink-gingham-ruffle-pillow.webp"
+  },
+  {
+   "id": "cozy-home/hanging-pothos",
+   "name": "hanging pothos",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/hanging-pothos.png",
+   "width": 304,
+   "height": 321,
+   "tags": [
+    "hanging",
+    "houseplant",
+    "photo",
+    "plant",
+    "pothos"
+   ],
+   "thumb": "thumbs/cozy-home/hanging-pothos.webp"
+  },
+  {
+   "id": "cozy-home/pink-twisted-candle",
+   "name": "pink twisted candle",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-twisted-candle.png",
+   "width": 68,
+   "height": 236,
+   "tags": [
+    "candle",
+    "decor",
+    "light",
+    "photo",
+    "pink",
+    "twisted"
+   ],
+   "thumb": "thumbs/cozy-home/pink-twisted-candle.webp"
+  },
+  {
+   "id": "cozy-home/scalloped-bowl-stack",
+   "name": "scalloped bowl stack",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/scalloped-bowl-stack.png",
+   "width": 211,
+   "height": 195,
+   "tags": [
+    "bowl",
+    "decor",
+    "kitchen",
+    "photo",
+    "scalloped",
+    "stack"
+   ],
+   "thumb": "thumbs/cozy-home/scalloped-bowl-stack.webp"
+  },
+  {
+   "id": "cozy-home/pink-tulips-vase",
+   "name": "pink tulips vase",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-tulips-vase.png",
+   "width": 243,
+   "height": 264,
+   "tags": [
+    "decor",
+    "flower",
+    "photo",
+    "pink",
+    "plant",
+    "tulips",
+    "vase"
+   ],
+   "thumb": "thumbs/cozy-home/pink-tulips-vase.webp"
+  },
+  {
+   "id": "cozy-home/side-table-with-mugs",
+   "name": "side table with mugs",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/side-table-with-mugs.png",
+   "width": 275,
+   "height": 264,
+   "tags": [
+    "furniture",
+    "mugs",
+    "photo",
+    "side",
+    "table",
+    "with"
+   ],
+   "thumb": "thumbs/cozy-home/side-table-with-mugs.webp"
+  },
+  {
+   "id": "cozy-home/woven-baskets",
+   "name": "woven baskets",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/woven-baskets.png",
+   "width": 230,
+   "height": 205,
+   "tags": [
+    "baskets",
+    "photo",
+    "woven"
+   ],
+   "thumb": "thumbs/cozy-home/woven-baskets.webp"
+  },
+  {
+   "id": "cozy-home/wood-armchair-pink-throw",
+   "name": "wood armchair pink throw",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/wood-armchair-pink-throw.png",
+   "width": 307,
+   "height": 295,
+   "tags": [
+    "armchair",
+    "chair",
+    "furniture",
+    "photo",
+    "pink",
+    "throw",
+    "wood"
+   ],
+   "thumb": "thumbs/cozy-home/wood-armchair-pink-throw.webp"
+  },
+  {
+   "id": "cozy-home/green-striped-pillow",
+   "name": "green striped pillow",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/green-striped-pillow.png",
+   "width": 238,
+   "height": 168,
+   "tags": [
+    "cushion",
+    "decor",
+    "green",
+    "photo",
+    "pillow",
+    "striped"
+   ],
+   "thumb": "thumbs/cozy-home/green-striped-pillow.webp"
+  },
+  {
+   "id": "cozy-home/pink-scalloped-bowl",
+   "name": "pink scalloped bowl",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-scalloped-bowl.png",
+   "width": 203,
+   "height": 132,
+   "tags": [
+    "bowl",
+    "decor",
+    "kitchen",
+    "photo",
+    "pink",
+    "scalloped"
+   ],
+   "thumb": "thumbs/cozy-home/pink-scalloped-bowl.webp"
+  },
+  {
+   "id": "cozy-home/olive-tree-ribbed-pot",
+   "name": "olive tree ribbed pot",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/olive-tree-ribbed-pot.png",
+   "width": 249,
+   "height": 255,
+   "tags": [
+    "nature",
+    "olive",
+    "photo",
+    "plant",
+    "pot",
+    "ribbed",
+    "tree"
+   ],
+   "thumb": "thumbs/cozy-home/olive-tree-ribbed-pot.webp"
+  },
+  {
+   "id": "cozy-home/pink-ruffle-vase",
+   "name": "pink ruffle vase",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-ruffle-vase.png",
+   "width": 168,
+   "height": 188,
+   "tags": [
+    "decor",
+    "photo",
+    "pink",
+    "ruffle",
+    "vase"
+   ],
+   "thumb": "thumbs/cozy-home/pink-ruffle-vase.webp"
+  },
+  {
+   "id": "cozy-home/green-mushroom-lamp",
+   "name": "green mushroom lamp",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/green-mushroom-lamp.png",
+   "width": 129,
+   "height": 181,
+   "tags": [
+    "decor",
+    "green",
+    "lamp",
+    "light",
+    "mushroom",
+    "photo"
+   ],
+   "thumb": "thumbs/cozy-home/green-mushroom-lamp.webp"
+  },
+  {
+   "id": "cozy-home/pink-gingham-throw",
+   "name": "pink gingham throw",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-gingham-throw.png",
+   "width": 283,
+   "height": 170,
+   "tags": [
+    "gingham",
+    "photo",
+    "pink",
+    "throw"
+   ],
+   "thumb": "thumbs/cozy-home/pink-gingham-throw.webp"
+  },
+  {
+   "id": "cozy-home/pastel-book-stack",
+   "name": "pastel book stack",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pastel-book-stack.png",
+   "width": 223,
+   "height": 127,
+   "tags": [
+    "book",
+    "pastel",
+    "photo",
+    "reading",
+    "stack",
+    "study"
+   ],
+   "thumb": "thumbs/cozy-home/pastel-book-stack.webp"
+  },
+  {
+   "id": "cozy-home/pothos-ribbed-pot",
+   "name": "pothos ribbed pot",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pothos-ribbed-pot.png",
+   "width": 193,
+   "height": 210,
+   "tags": [
+    "houseplant",
+    "photo",
+    "plant",
+    "pot",
+    "pothos",
+    "ribbed"
+   ],
+   "thumb": "thumbs/cozy-home/pothos-ribbed-pot.webp"
+  },
+  {
+   "id": "cozy-home/pink-wine-glass",
+   "name": "pink wine glass",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-wine-glass.png",
+   "width": 72,
+   "height": 154,
+   "tags": [
+    "glass",
+    "photo",
+    "pink",
+    "wine"
+   ],
+   "thumb": "thumbs/cozy-home/pink-wine-glass.webp"
+  },
+  {
+   "id": "cozy-home/green-scalloped-mug",
+   "name": "green scalloped mug",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/green-scalloped-mug.png",
+   "width": 150,
+   "height": 164,
+   "tags": [
+    "coffee",
+    "cup",
+    "drink",
+    "green",
+    "mug",
+    "photo",
+    "scalloped"
+   ],
+   "thumb": "thumbs/cozy-home/green-scalloped-mug.webp"
+  },
+  {
+   "id": "cozy-home/green-wavy-glass",
+   "name": "green wavy glass",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/green-wavy-glass.png",
+   "width": 103,
+   "height": 174,
+   "tags": [
+    "glass",
+    "green",
+    "photo",
+    "wavy"
+   ],
+   "thumb": "thumbs/cozy-home/green-wavy-glass.webp"
+  },
+  {
+   "id": "cozy-home/folded-towel-stack",
+   "name": "folded towel stack",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/folded-towel-stack.png",
+   "width": 227,
+   "height": 190,
+   "tags": [
+    "folded",
+    "photo",
+    "stack",
+    "towel"
+   ],
+   "thumb": "thumbs/cozy-home/folded-towel-stack.webp"
+  },
+  {
+   "id": "cozy-home/wood-coffee-table",
+   "name": "wood coffee table",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/wood-coffee-table.png",
+   "width": 354,
+   "height": 190,
+   "tags": [
+    "cafe",
+    "coffee",
+    "drink",
+    "furniture",
+    "photo",
+    "table",
+    "wood"
+   ],
+   "thumb": "thumbs/cozy-home/wood-coffee-table.webp"
+  },
+  {
+   "id": "cozy-home/pink-bubble-candle",
+   "name": "pink bubble candle",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-bubble-candle.png",
+   "width": 115,
+   "height": 101,
+   "tags": [
+    "bubble",
+    "candle",
+    "decor",
+    "light",
+    "photo",
+    "pink"
+   ],
+   "thumb": "thumbs/cozy-home/pink-bubble-candle.webp"
+  },
+  {
+   "id": "cozy-home/green-scalloped-plate",
+   "name": "green scalloped plate",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/green-scalloped-plate.png",
+   "width": 229,
+   "height": 157,
+   "tags": [
+    "green",
+    "kitchen",
+    "photo",
+    "plate",
+    "scalloped"
+   ],
+   "thumb": "thumbs/cozy-home/green-scalloped-plate.webp"
+  },
+  {
+   "id": "cozy-home/pink-striped-pitcher",
+   "name": "pink striped pitcher",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-striped-pitcher.png",
+   "width": 148,
+   "height": 157,
+   "tags": [
+    "kitchen",
+    "photo",
+    "pink",
+    "pitcher",
+    "striped"
+   ],
+   "thumb": "thumbs/cozy-home/pink-striped-pitcher.webp"
+  },
+  {
+   "id": "cozy-home/pink-glass-bowl-and-flower-pillow",
+   "name": "pink glass bowl and flower pillow",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-glass-bowl-and-flower-pillow.png",
+   "width": 315,
+   "height": 299,
+   "tags": [
+    "and",
+    "bowl",
+    "cushion",
+    "decor",
+    "flower",
+    "glass",
+    "kitchen",
+    "photo",
+    "pillow",
+    "pink",
+    "plant"
+   ],
+   "thumb": "thumbs/cozy-home/pink-glass-bowl-and-flower-pillow.webp"
+  },
+  {
+   "id": "cozy-home/cream-mushroom-lamp",
+   "name": "cream mushroom lamp",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/cream-mushroom-lamp.png",
+   "width": 153,
+   "height": 213,
+   "tags": [
+    "cream",
+    "decor",
+    "lamp",
+    "light",
+    "mushroom",
+    "photo"
+   ],
+   "thumb": "thumbs/cozy-home/cream-mushroom-lamp.webp"
+  },
+  {
+   "id": "cozy-home/babys-breath-pink-vase",
+   "name": "babys breath pink vase",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/babys-breath-pink-vase.png",
+   "width": 150,
+   "height": 211,
+   "tags": [
+    "babys",
+    "breath",
+    "decor",
+    "flower",
+    "photo",
+    "pink",
+    "plant",
+    "vase"
+   ],
+   "thumb": "thumbs/cozy-home/babys-breath-pink-vase.webp"
+  },
+  {
+   "id": "cozy-home/tulip-embroidered-pillow",
+   "name": "tulip embroidered pillow",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/tulip-embroidered-pillow.png",
+   "width": 288,
+   "height": 152,
+   "tags": [
+    "cushion",
+    "decor",
+    "embroidered",
+    "photo",
+    "pillow",
+    "tulip"
+   ],
+   "thumb": "thumbs/cozy-home/tulip-embroidered-pillow.webp"
+  },
+  {
+   "id": "cozy-home/green-striped-rug",
+   "name": "green striped rug",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/green-striped-rug.png",
+   "width": 478,
+   "height": 143,
+   "tags": [
+    "green",
+    "photo",
+    "rug",
+    "striped"
+   ],
+   "thumb": "thumbs/cozy-home/green-striped-rug.webp"
+  },
+  {
+   "id": "cozy-home/pink-glass-candle",
+   "name": "pink glass candle",
+   "theme": "cozy-home",
+   "style": "photo",
+   "file": "sprites/cozy-home/pink-glass-candle.png",
+   "width": 115,
+   "height": 138,
+   "tags": [
+    "candle",
+    "decor",
+    "glass",
+    "light",
+    "photo",
+    "pink"
+   ],
+   "thumb": "thumbs/cozy-home/pink-glass-candle.webp"
+  },
+  {
+   "id": "desktop/floppy-disk",
+   "name": "floppy disk",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/floppy-disk.png",
+   "width": 227,
+   "height": 225,
+   "tags": [
+    "computer",
+    "disk",
+    "floppy",
+    "photo",
+    "retro",
+    "save"
+   ],
+   "thumb": "thumbs/desktop/floppy-disk.webp"
+  },
+  {
+   "id": "desktop/cassette-tape",
+   "name": "cassette tape",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/cassette-tape.png",
+   "width": 239,
+   "height": 132,
+   "tags": [
+    "cassette",
+    "music",
+    "photo",
+    "retro",
+    "tape"
+   ],
+   "thumb": "thumbs/desktop/cassette-tape.webp"
+  },
+  {
+   "id": "desktop/boombox",
+   "name": "boombox",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/boombox.png",
+   "width": 372,
+   "height": 243,
+   "tags": [
+    "audio",
+    "boombox",
+    "music",
+    "photo",
+    "retro"
+   ],
+   "thumb": "thumbs/desktop/boombox.webp"
+  },
+  {
+   "id": "desktop/cd-case",
+   "name": "cd case",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/cd-case.png",
+   "width": 286,
+   "height": 153,
+   "tags": [
+    "case",
+    "cd",
+    "music",
+    "photo",
+    "retro"
+   ],
+   "thumb": "thumbs/desktop/cd-case.webp"
+  },
+  {
+   "id": "desktop/colour-cube-puzzle",
+   "name": "colour cube puzzle",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/colour-cube-puzzle.png",
+   "width": 168,
+   "height": 163,
+   "tags": [
+    "colour",
+    "cube",
+    "photo",
+    "puzzle"
+   ],
+   "thumb": "thumbs/desktop/colour-cube-puzzle.webp"
+  },
+  {
+   "id": "desktop/retro-desk-phone",
+   "name": "retro desk phone",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/retro-desk-phone.png",
+   "width": 532,
+   "height": 297,
+   "tags": [
+    "desk",
+    "phone",
+    "photo",
+    "retro"
+   ],
+   "thumb": "thumbs/desktop/retro-desk-phone.webp"
+  },
+  {
+   "id": "desktop/yellow-notepad-and-pen",
+   "name": "yellow notepad and pen",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/yellow-notepad-and-pen.png",
+   "width": 315,
+   "height": 224,
+   "tags": [
+    "and",
+    "notepad",
+    "pen",
+    "photo",
+    "stationery",
+    "writing",
+    "yellow"
+   ],
+   "thumb": "thumbs/desktop/yellow-notepad-and-pen.webp"
+  },
+  {
+   "id": "desktop/mountain-photo-print",
+   "name": "mountain photo print",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/mountain-photo-print.png",
+   "width": 295,
+   "height": 188,
+   "tags": [
+    "mountain",
+    "photo",
+    "print"
+   ],
+   "thumb": "thumbs/desktop/mountain-photo-print.webp"
+  },
+  {
+   "id": "desktop/pixel-mouse-cursor",
+   "name": "pixel mouse cursor",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/pixel-mouse-cursor.png",
+   "width": 116,
+   "height": 128,
+   "tags": [
+    "cursor",
+    "mouse",
+    "photo",
+    "pixel"
+   ],
+   "thumb": "thumbs/desktop/pixel-mouse-cursor.webp"
+  },
+  {
+   "id": "witchy/ornate-moon-mirror",
+   "name": "ornate moon mirror",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/ornate-moon-mirror.png",
+   "width": 400,
+   "height": 634,
+   "tags": [
+    "mirror",
+    "moon",
+    "night",
+    "ornate",
+    "photo",
+    "space"
+   ],
+   "thumb": "thumbs/witchy/ornate-moon-mirror.webp"
+  },
+  {
+   "id": "witchy/ivy-vine",
+   "name": "ivy vine",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/ivy-vine.png",
+   "width": 290,
+   "height": 438,
+   "tags": [
+    "ivy",
+    "leaf",
+    "photo",
+    "plant",
+    "vine"
+   ],
+   "thumb": "thumbs/witchy/ivy-vine.webp"
+  },
+  {
+   "id": "witchy/brass-candlesticks",
+   "name": "brass candlesticks",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/brass-candlesticks.png",
+   "width": 257,
+   "height": 622,
+   "tags": [
+    "brass",
+    "candle",
+    "candlesticks",
+    "light",
+    "photo"
+   ],
+   "thumb": "thumbs/witchy/brass-candlesticks.webp"
+  },
+  {
+   "id": "witchy/old-books-and-skull",
+   "name": "old books and skull",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/old-books-and-skull.png",
+   "width": 585,
+   "height": 508,
+   "tags": [
+    "and",
+    "books",
+    "halloween",
+    "old",
+    "photo",
+    "reading",
+    "skull",
+    "spooky",
+    "study"
+   ],
+   "thumb": "thumbs/witchy/old-books-and-skull.webp"
+  },
+  {
+   "id": "witchy/rose-petal",
+   "name": "rose petal",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/rose-petal.png",
+   "width": 108,
+   "height": 67,
+   "tags": [
+    "flower",
+    "petal",
+    "photo",
+    "plant",
+    "rose"
+   ],
+   "thumb": "thumbs/witchy/rose-petal.webp"
+  },
+  {
+   "id": "witchy/black-gold-teacup",
+   "name": "black gold teacup",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/black-gold-teacup.png",
+   "width": 311,
+   "height": 197,
+   "tags": [
+    "black",
+    "cup",
+    "drink",
+    "gold",
+    "photo",
+    "tea",
+    "teacup"
+   ],
+   "thumb": "thumbs/witchy/black-gold-teacup.webp"
+  },
+  {
+   "id": "witchy/witch-hat",
+   "name": "witch hat",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/witch-hat.png",
+   "width": 493,
+   "height": 507,
+   "tags": [
+    "halloween",
+    "hat",
+    "magic",
+    "photo",
+    "witch"
+   ],
+   "thumb": "thumbs/witchy/witch-hat.webp"
+  },
+  {
+   "id": "witchy/red-rose",
+   "name": "red rose",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/red-rose.png",
+   "width": 277,
+   "height": 329,
+   "tags": [
+    "flower",
+    "photo",
+    "plant",
+    "red",
+    "rose"
+   ],
+   "thumb": "thumbs/witchy/red-rose.webp"
+  },
+  {
+   "id": "witchy/pocket-watch-and-keys",
+   "name": "pocket watch and keys",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/pocket-watch-and-keys.png",
+   "width": 431,
+   "height": 320,
+   "tags": [
+    "and",
+    "keys",
+    "photo",
+    "pocket",
+    "watch"
+   ],
+   "thumb": "thumbs/witchy/pocket-watch-and-keys.webp"
+  },
+  {
+   "id": "witchy/rose-petal-2",
+   "name": "rose petal 2",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/rose-petal-2.png",
+   "width": 112,
+   "height": 75,
+   "tags": [
+    "flower",
+    "petal",
+    "photo",
+    "plant",
+    "rose"
+   ],
+   "thumb": "thumbs/witchy/rose-petal-2.webp"
+  },
+  {
+   "id": "witchy/rose-petal-3",
+   "name": "rose petal 3",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/rose-petal-3.png",
+   "width": 75,
+   "height": 55,
+   "tags": [
+    "flower",
+    "petal",
+    "photo",
+    "plant",
+    "rose"
+   ],
+   "thumb": "thumbs/witchy/rose-petal-3.webp"
+  },
+  {
+   "id": "witchy/smoky-quartz-crystals",
+   "name": "smoky quartz crystals",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/smoky-quartz-crystals.png",
+   "width": 237,
+   "height": 215,
+   "tags": [
+    "crystal",
+    "crystals",
+    "gem",
+    "magic",
+    "photo",
+    "quartz",
+    "smoky"
+   ],
+   "thumb": "thumbs/witchy/smoky-quartz-crystals.webp"
+  },
+  {
+   "id": "witchy/apothecary-bottle",
+   "name": "apothecary bottle",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/apothecary-bottle.png",
+   "width": 155,
+   "height": 355,
+   "tags": [
+    "apothecary",
+    "bottle",
+    "photo"
+   ],
+   "thumb": "thumbs/witchy/apothecary-bottle.webp"
+  },
+  {
+   "id": "witchy/brass-lantern",
+   "name": "brass lantern",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/brass-lantern.png",
+   "width": 228,
+   "height": 411,
+   "tags": [
+    "brass",
+    "lantern",
+    "light",
+    "photo"
+   ],
+   "thumb": "thumbs/witchy/brass-lantern.webp"
+  },
+  {
+   "id": "witchy/moth",
+   "name": "moth",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/moth.png",
+   "width": 312,
+   "height": 158,
+   "tags": [
+    "bug",
+    "insect",
+    "moth",
+    "photo"
+   ],
+   "thumb": "thumbs/witchy/moth.webp"
+  },
+  {
+   "id": "witchy/ivy-sprig",
+   "name": "ivy sprig",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/ivy-sprig.png",
+   "width": 186,
+   "height": 243,
+   "tags": [
+    "flower",
+    "ivy",
+    "leaf",
+    "photo",
+    "plant",
+    "sprig"
+   ],
+   "thumb": "thumbs/witchy/ivy-sprig.webp"
+  },
+  {
+   "id": "witchy/ornate-trinket-box",
+   "name": "ornate trinket box",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/ornate-trinket-box.png",
+   "width": 380,
+   "height": 298,
+   "tags": [
+    "box",
+    "ornate",
+    "photo",
+    "trinket"
+   ],
+   "thumb": "thumbs/witchy/ornate-trinket-box.webp"
+  },
+  {
+   "id": "witchy/wax-sealed-envelope",
+   "name": "wax sealed envelope",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/wax-sealed-envelope.png",
+   "width": 317,
+   "height": 258,
+   "tags": [
+    "envelope",
+    "photo",
+    "sealed",
+    "wax"
+   ],
+   "thumb": "thumbs/witchy/wax-sealed-envelope.webp"
+  },
+  {
+   "id": "witchy/rose-petal-4",
+   "name": "rose petal 4",
+   "theme": "witchy",
+   "style": "photo",
+   "file": "sprites/witchy/rose-petal-4.png",
+   "width": 125,
+   "height": 78,
+   "tags": [
+    "flower",
+    "petal",
+    "photo",
+    "plant",
+    "rose"
+   ],
+   "thumb": "thumbs/witchy/rose-petal-4.webp"
+  },
+  {
+   "id": "streetwear/black-headphones",
+   "name": "black headphones",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/black-headphones.png",
+   "width": 267,
+   "height": 305,
+   "tags": [
+    "audio",
+    "black",
+    "headphones",
+    "music",
+    "photo"
+   ],
+   "thumb": "thumbs/streetwear/black-headphones.webp"
+  },
+  {
+   "id": "streetwear/varsity-jacket",
+   "name": "varsity jacket",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/varsity-jacket.png",
+   "width": 509,
+   "height": 534,
+   "tags": [
+    "jacket",
+    "photo",
+    "varsity"
+   ],
+   "thumb": "thumbs/streetwear/varsity-jacket.webp"
+  },
+  {
+   "id": "streetwear/chrome-star",
+   "name": "chrome star",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/chrome-star.png",
+   "width": 151,
+   "height": 142,
+   "tags": [
+    "chrome",
+    "photo",
+    "star"
+   ],
+   "thumb": "thumbs/streetwear/chrome-star.webp"
+  },
+  {
+   "id": "streetwear/chrome-star-2",
+   "name": "chrome star 2",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/chrome-star-2.png",
+   "width": 180,
+   "height": 180,
+   "tags": [
+    "chrome",
+    "photo",
+    "star"
+   ],
+   "thumb": "thumbs/streetwear/chrome-star-2.webp"
+  },
+  {
+   "id": "streetwear/vinyl-record",
+   "name": "vinyl record",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/vinyl-record.png",
+   "width": 284,
+   "height": 285,
+   "tags": [
+    "music",
+    "photo",
+    "record",
+    "retro",
+    "vinyl"
+   ],
+   "thumb": "thumbs/streetwear/vinyl-record.webp"
+  },
+  {
+   "id": "streetwear/disco-ball",
+   "name": "disco ball",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/disco-ball.png",
+   "width": 279,
+   "height": 275,
+   "tags": [
+    "ball",
+    "disco",
+    "photo"
+   ],
+   "thumb": "thumbs/streetwear/disco-ball.webp"
+  },
+  {
+   "id": "streetwear/chain-cross-necklace",
+   "name": "chain cross necklace",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/chain-cross-necklace.png",
+   "width": 168,
+   "height": 270,
+   "tags": [
+    "chain",
+    "cross",
+    "necklace",
+    "photo"
+   ],
+   "thumb": "thumbs/streetwear/chain-cross-necklace.webp"
+  },
+  {
+   "id": "streetwear/black-sunglasses",
+   "name": "black sunglasses",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/black-sunglasses.png",
+   "width": 313,
+   "height": 131,
+   "tags": [
+    "black",
+    "photo",
+    "sunglasses"
+   ],
+   "thumb": "thumbs/streetwear/black-sunglasses.webp"
+  },
+  {
+   "id": "streetwear/vinyl-record-stack",
+   "name": "vinyl record stack",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/vinyl-record-stack.png",
+   "width": 371,
+   "height": 175,
+   "tags": [
+    "music",
+    "photo",
+    "record",
+    "retro",
+    "stack",
+    "vinyl"
+   ],
+   "thumb": "thumbs/streetwear/vinyl-record-stack.webp"
+  },
+  {
+   "id": "streetwear/eight-ball",
+   "name": "eight ball",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/eight-ball.png",
+   "width": 166,
+   "height": 166,
+   "tags": [
+    "ball",
+    "eight",
+    "photo"
+   ],
+   "thumb": "thumbs/streetwear/eight-ball.webp"
+  },
+  {
+   "id": "streetwear/skateboard",
+   "name": "skateboard",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/skateboard.png",
+   "width": 256,
+   "height": 485,
+   "tags": [
+    "photo",
+    "skateboard"
+   ],
+   "thumb": "thumbs/streetwear/skateboard.webp"
+  },
+  {
+   "id": "streetwear/flip-lighter",
+   "name": "flip lighter",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/flip-lighter.png",
+   "width": 156,
+   "height": 207,
+   "tags": [
+    "flip",
+    "lighter",
+    "photo"
+   ],
+   "thumb": "thumbs/streetwear/flip-lighter.webp"
+  },
+  {
+   "id": "streetwear/clear-cassette-tape",
+   "name": "clear cassette tape",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/clear-cassette-tape.png",
+   "width": 282,
+   "height": 211,
+   "tags": [
+    "cassette",
+    "clear",
+    "music",
+    "photo",
+    "retro",
+    "tape"
+   ],
+   "thumb": "thumbs/streetwear/clear-cassette-tape.webp"
+  },
+  {
+   "id": "streetwear/star-doodle-coffee-cup",
+   "name": "star doodle coffee cup",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/star-doodle-coffee-cup.png",
+   "width": 204,
+   "height": 299,
+   "tags": [
+    "cafe",
+    "coffee",
+    "cup",
+    "doodle",
+    "drink",
+    "photo",
+    "star"
+   ],
+   "thumb": "thumbs/streetwear/star-doodle-coffee-cup.webp"
+  },
+  {
+   "id": "streetwear/city-polaroid",
+   "name": "city polaroid",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/city-polaroid.png",
+   "width": 287,
+   "height": 330,
+   "tags": [
+    "city",
+    "memory",
+    "photo",
+    "polaroid"
+   ],
+   "thumb": "thumbs/streetwear/city-polaroid.webp"
+  },
+  {
+   "id": "streetwear/dice-keychain",
+   "name": "dice keychain",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/dice-keychain.png",
+   "width": 126,
+   "height": 280,
+   "tags": [
+    "dice",
+    "keychain",
+    "photo"
+   ],
+   "thumb": "thumbs/streetwear/dice-keychain.webp"
+  },
+  {
+   "id": "streetwear/digital-watch",
+   "name": "digital watch",
+   "theme": "streetwear",
+   "style": "photo",
+   "file": "sprites/streetwear/digital-watch.png",
+   "width": 144,
+   "height": 223,
+   "tags": [
+    "digital",
+    "photo",
+    "watch"
+   ],
+   "thumb": "thumbs/streetwear/digital-watch.webp"
+  },
+  {
+   "id": "cottagecore/floral-book-stack",
+   "name": "floral book stack",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/floral-book-stack.png",
+   "width": 370,
+   "height": 355,
+   "tags": [
+    "book",
+    "floral",
+    "photo",
+    "reading",
+    "stack",
+    "study"
+   ],
+   "thumb": "thumbs/cottagecore/floral-book-stack.webp"
+  },
+  {
+   "id": "cottagecore/floral-teapot",
+   "name": "floral teapot",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/floral-teapot.png",
+   "width": 333,
+   "height": 244,
+   "tags": [
+    "drink",
+    "floral",
+    "photo",
+    "tea",
+    "teapot"
+   ],
+   "thumb": "thumbs/cottagecore/floral-teapot.webp"
+  },
+  {
+   "id": "cottagecore/wildflower-jar",
+   "name": "wildflower jar",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/wildflower-jar.png",
+   "width": 316,
+   "height": 598,
+   "tags": [
+    "flower",
+    "jar",
+    "photo",
+    "plant",
+    "wildflower"
+   ],
+   "thumb": "thumbs/cottagecore/wildflower-jar.webp"
+  },
+  {
+   "id": "cottagecore/floral-teacup",
+   "name": "floral teacup",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/floral-teacup.png",
+   "width": 264,
+   "height": 185,
+   "tags": [
+    "cup",
+    "drink",
+    "floral",
+    "photo",
+    "tea",
+    "teacup"
+   ],
+   "thumb": "thumbs/cottagecore/floral-teacup.webp"
+  },
+  {
+   "id": "cottagecore/leaf-sprig",
+   "name": "leaf sprig",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/leaf-sprig.png",
+   "width": 56,
+   "height": 67,
+   "tags": [
+    "flower",
+    "leaf",
+    "photo",
+    "plant",
+    "sprig"
+   ],
+   "thumb": "thumbs/cottagecore/leaf-sprig.webp"
+  },
+  {
+   "id": "cottagecore/yellow-gingham-bow",
+   "name": "yellow gingham bow",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/yellow-gingham-bow.png",
+   "width": 272,
+   "height": 215,
+   "tags": [
+    "bow",
+    "gingham",
+    "photo",
+    "yellow"
+   ],
+   "thumb": "thumbs/cottagecore/yellow-gingham-bow.webp"
+  },
+  {
+   "id": "cottagecore/monarch-butterfly",
+   "name": "monarch butterfly",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/monarch-butterfly.png",
+   "width": 169,
+   "height": 168,
+   "tags": [
+    "bug",
+    "butterfly",
+    "insect",
+    "monarch",
+    "photo"
+   ],
+   "thumb": "thumbs/cottagecore/monarch-butterfly.webp"
+  },
+  {
+   "id": "cottagecore/pink-petal-flower",
+   "name": "pink petal flower",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/pink-petal-flower.png",
+   "width": 93,
+   "height": 74,
+   "tags": [
+    "flower",
+    "petal",
+    "photo",
+    "pink",
+    "plant"
+   ],
+   "thumb": "thumbs/cottagecore/pink-petal-flower.webp"
+  },
+  {
+   "id": "cottagecore/floral-candle-jar",
+   "name": "floral candle jar",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/floral-candle-jar.png",
+   "width": 151,
+   "height": 211,
+   "tags": [
+    "candle",
+    "decor",
+    "floral",
+    "jar",
+    "light",
+    "photo"
+   ],
+   "thumb": "thumbs/cottagecore/floral-candle-jar.webp"
+  },
+  {
+   "id": "cottagecore/rosebud-sprig",
+   "name": "rosebud sprig",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/rosebud-sprig.png",
+   "width": 61,
+   "height": 98,
+   "tags": [
+    "flower",
+    "photo",
+    "plant",
+    "rosebud",
+    "sprig"
+   ],
+   "thumb": "thumbs/cottagecore/rosebud-sprig.webp"
+  },
+  {
+   "id": "cottagecore/lace-doily",
+   "name": "lace doily",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/lace-doily.png",
+   "width": 236,
+   "height": 183,
+   "tags": [
+    "doily",
+    "lace",
+    "photo"
+   ],
+   "thumb": "thumbs/cottagecore/lace-doily.webp"
+  },
+  {
+   "id": "cottagecore/pink-cosmos-flower",
+   "name": "pink cosmos flower",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/pink-cosmos-flower.png",
+   "width": 81,
+   "height": 75,
+   "tags": [
+    "cosmos",
+    "flower",
+    "photo",
+    "pink",
+    "plant"
+   ],
+   "thumb": "thumbs/cottagecore/pink-cosmos-flower.webp"
+  },
+  {
+   "id": "cottagecore/pink-cosmos-flower-2",
+   "name": "pink cosmos flower 2",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/pink-cosmos-flower-2.png",
+   "width": 101,
+   "height": 94,
+   "tags": [
+    "cosmos",
+    "flower",
+    "photo",
+    "pink",
+    "plant"
+   ],
+   "thumb": "thumbs/cottagecore/pink-cosmos-flower-2.webp"
+  },
+  {
+   "id": "cottagecore/daisy",
+   "name": "daisy",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/daisy.png",
+   "width": 111,
+   "height": 111,
+   "tags": [
+    "daisy",
+    "flower",
+    "photo",
+    "plant"
+   ],
+   "thumb": "thumbs/cottagecore/daisy.webp"
+  },
+  {
+   "id": "cottagecore/yellow-gingham-napkin",
+   "name": "yellow gingham napkin",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/yellow-gingham-napkin.png",
+   "width": 301,
+   "height": 252,
+   "tags": [
+    "gingham",
+    "napkin",
+    "photo",
+    "yellow"
+   ],
+   "thumb": "thumbs/cottagecore/yellow-gingham-napkin.webp"
+  },
+  {
+   "id": "cottagecore/yellow-wildflower-sprig",
+   "name": "yellow wildflower sprig",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/yellow-wildflower-sprig.png",
+   "width": 79,
+   "height": 176,
+   "tags": [
+    "flower",
+    "photo",
+    "plant",
+    "sprig",
+    "wildflower",
+    "yellow"
+   ],
+   "thumb": "thumbs/cottagecore/yellow-wildflower-sprig.webp"
+  },
+  {
+   "id": "cottagecore/gold-scissors",
+   "name": "gold scissors",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/gold-scissors.png",
+   "width": 241,
+   "height": 153,
+   "tags": [
+    "gold",
+    "photo",
+    "scissors"
+   ],
+   "thumb": "thumbs/cottagecore/gold-scissors.webp"
+  },
+  {
+   "id": "mission-control/shuttle-launch-patch",
+   "name": "shuttle launch patch",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/shuttle-launch-patch.png",
+   "width": 304,
+   "height": 299,
+   "tags": [
+    "badge",
+    "illustrated",
+    "launch",
+    "patch",
+    "rocket",
+    "shuttle",
+    "space",
+    "sticker"
+   ],
+   "thumb": "thumbs/mission-control/shuttle-launch-patch.webp"
+  },
+  {
+   "id": "mission-control/astronaut-helmet",
+   "name": "astronaut helmet",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/astronaut-helmet.png",
+   "width": 248,
+   "height": 249,
+   "tags": [
+    "astronaut",
+    "helmet",
+    "illustrated",
+    "space"
+   ],
+   "thumb": "thumbs/mission-control/astronaut-helmet.webp"
+  },
+  {
+   "id": "mission-control/radar-console",
+   "name": "radar console",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/radar-console.png",
+   "width": 312,
+   "height": 258,
+   "tags": [
+    "console",
+    "gaming",
+    "illustrated",
+    "radar",
+    "tech"
+   ],
+   "thumb": "thumbs/mission-control/radar-console.webp"
+  },
+  {
+   "id": "mission-control/saturn",
+   "name": "saturn",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/saturn.png",
+   "width": 307,
+   "height": 205,
+   "tags": [
+    "illustrated",
+    "planet",
+    "saturn",
+    "space"
+   ],
+   "thumb": "thumbs/mission-control/saturn.webp"
+  },
+  {
+   "id": "mission-control/orange-sparkle",
+   "name": "orange sparkle",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/orange-sparkle.png",
+   "width": 58,
+   "height": 66,
+   "tags": [
+    "illustrated",
+    "orange",
+    "sparkle"
+   ],
+   "thumb": "thumbs/mission-control/orange-sparkle.webp"
+  },
+  {
+   "id": "mission-control/mission-control-badge",
+   "name": "mission control badge",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/mission-control-badge.png",
+   "width": 295,
+   "height": 187,
+   "tags": [
+    "badge",
+    "control",
+    "illustrated",
+    "mission",
+    "patch",
+    "sticker"
+   ],
+   "thumb": "thumbs/mission-control/mission-control-badge.webp"
+  },
+  {
+   "id": "mission-control/orange-sparkle-small",
+   "name": "orange sparkle small",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/orange-sparkle-small.png",
+   "width": 52,
+   "height": 64,
+   "tags": [
+    "illustrated",
+    "orange",
+    "small",
+    "sparkle"
+   ],
+   "thumb": "thumbs/mission-control/orange-sparkle-small.webp"
+  },
+  {
+   "id": "mission-control/ring-space-station",
+   "name": "ring space station",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/ring-space-station.png",
+   "width": 300,
+   "height": 253,
+   "tags": [
+    "illustrated",
+    "ring",
+    "space",
+    "station"
+   ],
+   "thumb": "thumbs/mission-control/ring-space-station.webp"
+  },
+  {
+   "id": "mission-control/orange-compass-star",
+   "name": "orange compass star",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/orange-compass-star.png",
+   "width": 186,
+   "height": 200,
+   "tags": [
+    "adventure",
+    "compass",
+    "illustrated",
+    "navigation",
+    "orange",
+    "star",
+    "travel"
+   ],
+   "thumb": "thumbs/mission-control/orange-compass-star.webp"
+  },
+  {
+   "id": "mission-control/satellite",
+   "name": "satellite",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/satellite.png",
+   "width": 331,
+   "height": 216,
+   "tags": [
+    "illustrated",
+    "satellite",
+    "space"
+   ],
+   "thumb": "thumbs/mission-control/satellite.webp"
+  },
+  {
+   "id": "mission-control/rocket-ship",
+   "name": "rocket ship",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/rocket-ship.png",
+   "width": 361,
+   "height": 172,
+   "tags": [
+    "illustrated",
+    "rocket",
+    "ship",
+    "space",
+    "spaceship"
+   ],
+   "thumb": "thumbs/mission-control/rocket-ship.webp"
+  },
+  {
+   "id": "mission-control/moon",
+   "name": "moon",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/moon.png",
+   "width": 207,
+   "height": 204,
+   "tags": [
+    "illustrated",
+    "moon",
+    "night",
+    "space"
+   ],
+   "thumb": "thumbs/mission-control/moon.webp"
+  },
+  {
+   "id": "mission-control/moon-base-dome",
+   "name": "moon base dome",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/moon-base-dome.png",
+   "width": 355,
+   "height": 229,
+   "tags": [
+    "base",
+    "dome",
+    "illustrated",
+    "moon",
+    "night",
+    "space"
+   ],
+   "thumb": "thumbs/mission-control/moon-base-dome.webp"
+  },
+  {
+   "id": "mission-control/planet-monitor",
+   "name": "planet monitor",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/planet-monitor.png",
+   "width": 249,
+   "height": 211,
+   "tags": [
+    "illustrated",
+    "monitor",
+    "planet"
+   ],
+   "thumb": "thumbs/mission-control/planet-monitor.webp"
+  },
+  {
+   "id": "mission-control/mars-rover",
+   "name": "mars rover",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/mars-rover.png",
+   "width": 338,
+   "height": 214,
+   "tags": [
+    "illustrated",
+    "mars",
+    "planet",
+    "robot",
+    "rover",
+    "space"
+   ],
+   "thumb": "thumbs/mission-control/mars-rover.webp"
+  },
+  {
+   "id": "mission-control/mars",
+   "name": "mars",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/mars.png",
+   "width": 206,
+   "height": 204,
+   "tags": [
+    "illustrated",
+    "mars",
+    "planet",
+    "space"
+   ],
+   "thumb": "thumbs/mission-control/mars.webp"
+  },
+  {
+   "id": "mission-control/expedition-badge",
+   "name": "expedition badge",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/expedition-badge.png",
+   "width": 340,
+   "height": 132,
+   "tags": [
+    "badge",
+    "expedition",
+    "illustrated",
+    "patch",
+    "sticker"
+   ],
+   "thumb": "thumbs/mission-control/expedition-badge.webp"
+  },
+  {
+   "id": "mission-control/crew-id-badge",
+   "name": "crew id badge",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/crew-id-badge.png",
+   "width": 246,
+   "height": 211,
+   "tags": [
+    "badge",
+    "crew",
+    "id",
+    "illustrated",
+    "patch",
+    "sticker"
+   ],
+   "thumb": "thumbs/mission-control/crew-id-badge.webp"
+  },
+  {
+   "id": "mission-control/galaxy-nebula",
+   "name": "galaxy nebula",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/galaxy-nebula.png",
+   "width": 261,
+   "height": 210,
+   "tags": [
+    "galaxy",
+    "illustrated",
+    "nebula",
+    "space",
+    "stars"
+   ],
+   "thumb": "thumbs/mission-control/galaxy-nebula.webp"
+  },
+  {
+   "id": "mission-control/cargo-crate",
+   "name": "cargo crate",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/cargo-crate.png",
+   "width": 266,
+   "height": 204,
+   "tags": [
+    "cargo",
+    "crate",
+    "illustrated"
+   ],
+   "thumb": "thumbs/mission-control/cargo-crate.webp"
+  },
+  {
+   "id": "mission-control/rocket-mug",
+   "name": "rocket mug",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/rocket-mug.png",
+   "width": 207,
+   "height": 187,
+   "tags": [
+    "coffee",
+    "cup",
+    "drink",
+    "illustrated",
+    "mug",
+    "rocket",
+    "space",
+    "spaceship"
+   ],
+   "thumb": "thumbs/mission-control/rocket-mug.webp"
+  },
+  {
+   "id": "mission-control/moon-phases",
+   "name": "moon phases",
+   "theme": "mission-control",
+   "style": "illustrated",
+   "file": "sprites/mission-control/moon-phases.png",
+   "width": 383,
+   "height": 95,
+   "tags": [
+    "illustrated",
+    "moon",
+    "night",
+    "phases",
+    "space"
+   ],
+   "thumb": "thumbs/mission-control/moon-phases.webp"
+  },
+  {
+   "id": "rpg/tavern-sign",
+   "name": "tavern sign",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/tavern-sign.png",
+   "width": 325,
+   "height": 234,
+   "tags": [
+    "illustrated",
+    "sign",
+    "tavern"
+   ],
+   "thumb": "thumbs/rpg/tavern-sign.webp"
+  },
+  {
+   "id": "rpg/dragon-banner",
+   "name": "dragon banner",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/dragon-banner.png",
+   "width": 179,
+   "height": 261,
+   "tags": [
+    "banner",
+    "dragon",
+    "illustrated"
+   ],
+   "thumb": "thumbs/rpg/dragon-banner.webp"
+  },
+  {
+   "id": "rpg/spellbook",
+   "name": "spellbook",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/spellbook.png",
+   "width": 262,
+   "height": 267,
+   "tags": [
+    "book",
+    "illustrated",
+    "magic",
+    "spellbook"
+   ],
+   "thumb": "thumbs/rpg/spellbook.webp"
+  },
+  {
+   "id": "rpg/sealed-scroll",
+   "name": "sealed scroll",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/sealed-scroll.png",
+   "width": 185,
+   "height": 251,
+   "tags": [
+    "illustrated",
+    "scroll",
+    "sealed"
+   ],
+   "thumb": "thumbs/rpg/sealed-scroll.webp"
+  },
+  {
+   "id": "rpg/star-shield",
+   "name": "star shield",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/star-shield.png",
+   "width": 195,
+   "height": 226,
+   "tags": [
+    "crest",
+    "illustrated",
+    "shield",
+    "star"
+   ],
+   "thumb": "thumbs/rpg/star-shield.webp"
+  },
+  {
+   "id": "rpg/treasure-map",
+   "name": "treasure map",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/treasure-map.png",
+   "width": 332,
+   "height": 241,
+   "tags": [
+    "adventure",
+    "illustrated",
+    "map",
+    "travel",
+    "treasure"
+   ],
+   "thumb": "thumbs/rpg/treasure-map.webp"
+  },
+  {
+   "id": "rpg/guild-hall",
+   "name": "guild hall",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/guild-hall.png",
+   "width": 421,
+   "height": 265,
+   "tags": [
+    "guild",
+    "hall",
+    "illustrated"
+   ],
+   "thumb": "thumbs/rpg/guild-hall.webp"
+  },
+  {
+   "id": "rpg/quest-board",
+   "name": "quest board",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/quest-board.png",
+   "width": 290,
+   "height": 262,
+   "tags": [
+    "board",
+    "illustrated",
+    "quest"
+   ],
+   "thumb": "thumbs/rpg/quest-board.webp"
+  },
+  {
+   "id": "rpg/lantern",
+   "name": "lantern",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/lantern.png",
+   "width": 132,
+   "height": 237,
+   "tags": [
+    "illustrated",
+    "lantern",
+    "light"
+   ],
+   "thumb": "thumbs/rpg/lantern.webp"
+  },
+  {
+   "id": "rpg/bubbling-cauldron",
+   "name": "bubbling cauldron",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/bubbling-cauldron.png",
+   "width": 215,
+   "height": 219,
+   "tags": [
+    "bubbling",
+    "cauldron",
+    "illustrated",
+    "magic",
+    "witch"
+   ],
+   "thumb": "thumbs/rpg/bubbling-cauldron.webp"
+  },
+  {
+   "id": "rpg/quest-checklist-and-quill",
+   "name": "quest checklist and quill",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/quest-checklist-and-quill.png",
+   "width": 270,
+   "height": 248,
+   "tags": [
+    "and",
+    "checklist",
+    "illustrated",
+    "quest",
+    "quill"
+   ],
+   "thumb": "thumbs/rpg/quest-checklist-and-quill.webp"
+  },
+  {
+   "id": "rpg/campfire",
+   "name": "campfire",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/campfire.png",
+   "width": 192,
+   "height": 203,
+   "tags": [
+    "campfire",
+    "illustrated"
+   ],
+   "thumb": "thumbs/rpg/campfire.webp"
+  },
+  {
+   "id": "rpg/longbow",
+   "name": "longbow",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/longbow.png",
+   "width": 220,
+   "height": 275,
+   "tags": [
+    "illustrated",
+    "longbow"
+   ],
+   "thumb": "thumbs/rpg/longbow.webp"
+  },
+  {
+   "id": "rpg/shield-and-sword",
+   "name": "shield and sword",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/shield-and-sword.png",
+   "width": 207,
+   "height": 249,
+   "tags": [
+    "and",
+    "crest",
+    "illustrated",
+    "shield",
+    "sword"
+   ],
+   "thumb": "thumbs/rpg/shield-and-sword.webp"
+  },
+  {
+   "id": "rpg/arrow-quiver",
+   "name": "arrow quiver",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/arrow-quiver.png",
+   "width": 173,
+   "height": 219,
+   "tags": [
+    "arrow",
+    "illustrated",
+    "quiver"
+   ],
+   "thumb": "thumbs/rpg/arrow-quiver.webp"
+  },
+  {
+   "id": "rpg/treasure-chest",
+   "name": "treasure chest",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/treasure-chest.png",
+   "width": 295,
+   "height": 236,
+   "tags": [
+    "chest",
+    "illustrated",
+    "treasure"
+   ],
+   "thumb": "thumbs/rpg/treasure-chest.webp"
+  },
+  {
+   "id": "rpg/blue-potion",
+   "name": "blue potion",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/blue-potion.png",
+   "width": 88,
+   "height": 199,
+   "tags": [
+    "blue",
+    "bottle",
+    "illustrated",
+    "magic",
+    "potion"
+   ],
+   "thumb": "thumbs/rpg/blue-potion.webp"
+  },
+  {
+   "id": "rpg/magic-crystals",
+   "name": "magic crystals",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/magic-crystals.png",
+   "width": 178,
+   "height": 190,
+   "tags": [
+    "crystals",
+    "gem",
+    "illustrated",
+    "magic"
+   ],
+   "thumb": "thumbs/rpg/magic-crystals.webp"
+  },
+  {
+   "id": "rpg/coin-pouch",
+   "name": "coin pouch",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/coin-pouch.png",
+   "width": 175,
+   "height": 188,
+   "tags": [
+    "coin",
+    "illustrated",
+    "pouch"
+   ],
+   "thumb": "thumbs/rpg/coin-pouch.webp"
+  },
+  {
+   "id": "rpg/red-health-potion",
+   "name": "red health potion",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/red-health-potion.png",
+   "width": 127,
+   "height": 177,
+   "tags": [
+    "bottle",
+    "health",
+    "illustrated",
+    "magic",
+    "potion",
+    "red"
+   ],
+   "thumb": "thumbs/rpg/red-health-potion.webp"
+  },
+  {
+   "id": "rpg/purple-mana-potion",
+   "name": "purple mana potion",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/purple-mana-potion.png",
+   "width": 130,
+   "height": 173,
+   "tags": [
+    "bottle",
+    "illustrated",
+    "magic",
+    "mana",
+    "potion",
+    "purple"
+   ],
+   "thumb": "thumbs/rpg/purple-mana-potion.webp"
+  },
+  {
+   "id": "rpg/trail-signpost",
+   "name": "trail signpost",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/trail-signpost.png",
+   "width": 255,
+   "height": 279,
+   "tags": [
+    "illustrated",
+    "signpost",
+    "trail"
+   ],
+   "thumb": "thumbs/rpg/trail-signpost.webp"
+  },
+  {
+   "id": "rpg/adventurer-backpack",
+   "name": "adventurer backpack",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/adventurer-backpack.png",
+   "width": 357,
+   "height": 259,
+   "tags": [
+    "adventurer",
+    "backpack",
+    "bag",
+    "illustrated",
+    "travel"
+   ],
+   "thumb": "thumbs/rpg/adventurer-backpack.webp"
+  },
+  {
+   "id": "rpg/hourglass",
+   "name": "hourglass",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/hourglass.png",
+   "width": 159,
+   "height": 250,
+   "tags": [
+    "hourglass",
+    "illustrated"
+   ],
+   "thumb": "thumbs/rpg/hourglass.webp"
+  },
+  {
+   "id": "rpg/compass",
+   "name": "compass",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/compass.png",
+   "width": 214,
+   "height": 254,
+   "tags": [
+    "adventure",
+    "compass",
+    "illustrated",
+    "navigation",
+    "travel"
+   ],
+   "thumb": "thumbs/rpg/compass.webp"
+  },
+  {
+   "id": "rpg/book-stack",
+   "name": "book stack",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/book-stack.png",
+   "width": 288,
+   "height": 221,
+   "tags": [
+    "book",
+    "illustrated",
+    "reading",
+    "stack",
+    "study"
+   ],
+   "thumb": "thumbs/rpg/book-stack.webp"
+  },
+  {
+   "id": "rpg/spyglass",
+   "name": "spyglass",
+   "theme": "rpg",
+   "style": "illustrated",
+   "file": "sprites/rpg/spyglass.png",
+   "width": 231,
+   "height": 167,
+   "tags": [
+    "illustrated",
+    "spyglass"
+   ],
+   "thumb": "thumbs/rpg/spyglass.webp"
+  },
+  {
+   "id": "deep-sea/porthole-reef-view",
+   "name": "porthole reef view",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/porthole-reef-view.png",
+   "width": 321,
+   "height": 297,
+   "tags": [
+    "illustrated",
+    "porthole",
+    "reef",
+    "view"
+   ],
+   "thumb": "thumbs/deep-sea/porthole-reef-view.webp"
+  },
+  {
+   "id": "deep-sea/underwater-dome-habitat",
+   "name": "underwater dome habitat",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/underwater-dome-habitat.png",
+   "width": 371,
+   "height": 255,
+   "tags": [
+    "dome",
+    "habitat",
+    "illustrated",
+    "underwater"
+   ],
+   "thumb": "thumbs/deep-sea/underwater-dome-habitat.webp"
+  },
+  {
+   "id": "deep-sea/squid-sketch-clipboard",
+   "name": "squid sketch clipboard",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/squid-sketch-clipboard.png",
+   "width": 236,
+   "height": 288,
+   "tags": [
+    "clipboard",
+    "illustrated",
+    "sketch",
+    "squid"
+   ],
+   "thumb": "thumbs/deep-sea/squid-sketch-clipboard.webp"
+  },
+  {
+   "id": "deep-sea/diving-helmet",
+   "name": "diving helmet",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/diving-helmet.png",
+   "width": 219,
+   "height": 275,
+   "tags": [
+    "diving",
+    "helmet",
+    "illustrated"
+   ],
+   "thumb": "thumbs/deep-sea/diving-helmet.webp"
+  },
+  {
+   "id": "deep-sea/submersible-rov",
+   "name": "submersible rov",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/submersible-rov.png",
+   "width": 350,
+   "height": 248,
+   "tags": [
+    "illustrated",
+    "rov",
+    "submersible"
+   ],
+   "thumb": "thumbs/deep-sea/submersible-rov.webp"
+  },
+  {
+   "id": "deep-sea/octopus",
+   "name": "octopus",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/octopus.png",
+   "width": 250,
+   "height": 216,
+   "tags": [
+    "animal",
+    "illustrated",
+    "ocean",
+    "octopus"
+   ],
+   "thumb": "thumbs/deep-sea/octopus.webp"
+  },
+  {
+   "id": "deep-sea/seahorse",
+   "name": "seahorse",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/seahorse.png",
+   "width": 104,
+   "height": 200,
+   "tags": [
+    "animal",
+    "illustrated",
+    "ocean",
+    "seahorse"
+   ],
+   "thumb": "thumbs/deep-sea/seahorse.webp"
+  },
+  {
+   "id": "deep-sea/tube-coral",
+   "name": "tube coral",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/tube-coral.png",
+   "width": 225,
+   "height": 189,
+   "tags": [
+    "coral",
+    "illustrated",
+    "tube"
+   ],
+   "thumb": "thumbs/deep-sea/tube-coral.webp"
+  },
+  {
+   "id": "deep-sea/jellyfish",
+   "name": "jellyfish",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/jellyfish.png",
+   "width": 153,
+   "height": 198,
+   "tags": [
+    "animal",
+    "illustrated",
+    "jellyfish",
+    "ocean"
+   ],
+   "thumb": "thumbs/deep-sea/jellyfish.webp"
+  },
+  {
+   "id": "deep-sea/anglerfish",
+   "name": "anglerfish",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/anglerfish.png",
+   "width": 268,
+   "height": 171,
+   "tags": [
+    "anglerfish",
+    "animal",
+    "fish",
+    "illustrated"
+   ],
+   "thumb": "thumbs/deep-sea/anglerfish.webp"
+  },
+  {
+   "id": "deep-sea/starfish",
+   "name": "starfish",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/starfish.png",
+   "width": 176,
+   "height": 160,
+   "tags": [
+    "animal",
+    "illustrated",
+    "starfish"
+   ],
+   "thumb": "thumbs/deep-sea/starfish.webp"
+  },
+  {
+   "id": "deep-sea/sonar-screen",
+   "name": "sonar screen",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/sonar-screen.png",
+   "width": 320,
+   "height": 168,
+   "tags": [
+    "illustrated",
+    "screen",
+    "sonar"
+   ],
+   "thumb": "thumbs/deep-sea/sonar-screen.webp"
+  },
+  {
+   "id": "deep-sea/scuba-tanks",
+   "name": "scuba tanks",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/scuba-tanks.png",
+   "width": 192,
+   "height": 205,
+   "tags": [
+    "illustrated",
+    "scuba",
+    "tanks"
+   ],
+   "thumb": "thumbs/deep-sea/scuba-tanks.webp"
+  },
+  {
+   "id": "deep-sea/shell-specimen-jar",
+   "name": "shell specimen jar",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/shell-specimen-jar.png",
+   "width": 133,
+   "height": 178,
+   "tags": [
+    "illustrated",
+    "jar",
+    "shell",
+    "specimen"
+   ],
+   "thumb": "thumbs/deep-sea/shell-specimen-jar.webp"
+  },
+  {
+   "id": "deep-sea/coral-specimen-jar",
+   "name": "coral specimen jar",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/coral-specimen-jar.png",
+   "width": 132,
+   "height": 177,
+   "tags": [
+    "coral",
+    "illustrated",
+    "jar",
+    "specimen"
+   ],
+   "thumb": "thumbs/deep-sea/coral-specimen-jar.webp"
+  },
+  {
+   "id": "deep-sea/jellyfish-specimen-jar",
+   "name": "jellyfish specimen jar",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/jellyfish-specimen-jar.png",
+   "width": 119,
+   "height": 169,
+   "tags": [
+    "animal",
+    "illustrated",
+    "jar",
+    "jellyfish",
+    "ocean",
+    "specimen"
+   ],
+   "thumb": "thumbs/deep-sea/jellyfish-specimen-jar.webp"
+  },
+  {
+   "id": "deep-sea/yellow-dive-case",
+   "name": "yellow dive case",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/yellow-dive-case.png",
+   "width": 249,
+   "height": 169,
+   "tags": [
+    "case",
+    "dive",
+    "illustrated",
+    "yellow"
+   ],
+   "thumb": "thumbs/deep-sea/yellow-dive-case.webp"
+  },
+  {
+   "id": "deep-sea/underwater-camera",
+   "name": "underwater camera",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/underwater-camera.png",
+   "width": 207,
+   "height": 151,
+   "tags": [
+    "camera",
+    "illustrated",
+    "underwater"
+   ],
+   "thumb": "thumbs/deep-sea/underwater-camera.webp"
+  },
+  {
+   "id": "deep-sea/dive-flashlight",
+   "name": "dive flashlight",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/dive-flashlight.png",
+   "width": 203,
+   "height": 143,
+   "tags": [
+    "dive",
+    "flashlight",
+    "illustrated"
+   ],
+   "thumb": "thumbs/deep-sea/dive-flashlight.webp"
+  },
+  {
+   "id": "deep-sea/dive-mask",
+   "name": "dive mask",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/dive-mask.png",
+   "width": 215,
+   "height": 141,
+   "tags": [
+    "dive",
+    "illustrated",
+    "mask"
+   ],
+   "thumb": "thumbs/deep-sea/dive-mask.webp"
+  },
+  {
+   "id": "deep-sea/compass",
+   "name": "compass",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/compass.png",
+   "width": 174,
+   "height": 216,
+   "tags": [
+    "adventure",
+    "compass",
+    "illustrated",
+    "navigation",
+    "travel"
+   ],
+   "thumb": "thumbs/deep-sea/compass.webp"
+  },
+  {
+   "id": "deep-sea/deep-sea-research-badge",
+   "name": "deep sea research badge",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/deep-sea-research-badge.png",
+   "width": 181,
+   "height": 212,
+   "tags": [
+    "badge",
+    "deep",
+    "illustrated",
+    "patch",
+    "research",
+    "sea",
+    "sticker"
+   ],
+   "thumb": "thumbs/deep-sea/deep-sea-research-badge.webp"
+  },
+  {
+   "id": "deep-sea/squid-patch",
+   "name": "squid patch",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/squid-patch.png",
+   "width": 186,
+   "height": 186,
+   "tags": [
+    "badge",
+    "illustrated",
+    "patch",
+    "squid",
+    "sticker"
+   ],
+   "thumb": "thumbs/deep-sea/squid-patch.webp"
+  },
+  {
+   "id": "deep-sea/whale-tablet",
+   "name": "whale tablet",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/whale-tablet.png",
+   "width": 293,
+   "height": 198,
+   "tags": [
+    "animal",
+    "illustrated",
+    "ocean",
+    "tablet",
+    "whale"
+   ],
+   "thumb": "thumbs/deep-sea/whale-tablet.webp"
+  },
+  {
+   "id": "deep-sea/field-journal",
+   "name": "field journal",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/field-journal.png",
+   "width": 294,
+   "height": 208,
+   "tags": [
+    "field",
+    "illustrated",
+    "journal",
+    "notebook",
+    "writing"
+   ],
+   "thumb": "thumbs/deep-sea/field-journal.webp"
+  },
+  {
+   "id": "deep-sea/submarine-patch",
+   "name": "submarine patch",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/submarine-patch.png",
+   "width": 194,
+   "height": 180,
+   "tags": [
+    "badge",
+    "illustrated",
+    "patch",
+    "sticker",
+    "submarine"
+   ],
+   "thumb": "thumbs/deep-sea/submarine-patch.webp"
+  },
+  {
+   "id": "deep-sea/wave-mug",
+   "name": "wave mug",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/wave-mug.png",
+   "width": 190,
+   "height": 159,
+   "tags": [
+    "coffee",
+    "cup",
+    "drink",
+    "illustrated",
+    "mug",
+    "wave"
+   ],
+   "thumb": "thumbs/deep-sea/wave-mug.webp"
+  },
+  {
+   "id": "deep-sea/hydrothermal-vent",
+   "name": "hydrothermal vent",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/hydrothermal-vent.png",
+   "width": 275,
+   "height": 197,
+   "tags": [
+    "hydrothermal",
+    "illustrated",
+    "vent"
+   ],
+   "thumb": "thumbs/deep-sea/hydrothermal-vent.webp"
+  },
+  {
+   "id": "deep-sea/glowing-coral",
+   "name": "glowing coral",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/glowing-coral.png",
+   "width": 283,
+   "height": 177,
+   "tags": [
+    "coral",
+    "glowing",
+    "illustrated"
+   ],
+   "thumb": "thumbs/deep-sea/glowing-coral.webp"
+  },
+  {
+   "id": "deep-sea/sea-turtle",
+   "name": "sea turtle",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/sea-turtle.png",
+   "width": 276,
+   "height": 173,
+   "tags": [
+    "animal",
+    "illustrated",
+    "ocean",
+    "sea",
+    "turtle"
+   ],
+   "thumb": "thumbs/deep-sea/sea-turtle.webp"
+  },
+  {
+   "id": "deep-sea/blue-whale",
+   "name": "blue whale",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/blue-whale.png",
+   "width": 430,
+   "height": 163,
+   "tags": [
+    "animal",
+    "blue",
+    "illustrated",
+    "ocean",
+    "whale"
+   ],
+   "thumb": "thumbs/deep-sea/blue-whale.webp"
+  },
+  {
+   "id": "deep-sea/school-of-fish",
+   "name": "school of fish",
+   "theme": "deep-sea",
+   "style": "illustrated",
+   "file": "sprites/deep-sea/school-of-fish.png",
+   "width": 305,
+   "height": 146,
+   "tags": [
+    "animal",
+    "fish",
+    "illustrated",
+    "of",
+    "school"
+   ],
+   "thumb": "thumbs/deep-sea/school-of-fish.webp"
+  },
+  {
+   "id": "study-club/iced-coffee",
+   "name": "iced coffee",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/iced-coffee.png",
+   "width": 121,
+   "height": 238,
+   "tags": [
+    "cafe",
+    "coffee",
+    "cold",
+    "drink",
+    "iced",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/iced-coffee.webp"
+  },
+  {
+   "id": "study-club/book-pennant",
+   "name": "book pennant",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/book-pennant.png",
+   "width": 275,
+   "height": 233,
+   "tags": [
+    "book",
+    "pennant",
+    "reading",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/book-pennant.webp"
+  },
+  {
+   "id": "study-club/book-crest-shield",
+   "name": "book crest shield",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/book-crest-shield.png",
+   "width": 192,
+   "height": 234,
+   "tags": [
+    "book",
+    "crest",
+    "reading",
+    "shield",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/book-crest-shield.webp"
+  },
+  {
+   "id": "study-club/books-with-plant",
+   "name": "books with plant",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/books-with-plant.png",
+   "width": 337,
+   "height": 303,
+   "tags": [
+    "books",
+    "plant",
+    "reading",
+    "watercolor",
+    "with"
+   ],
+   "thumb": "thumbs/study-club/books-with-plant.webp"
+  },
+  {
+   "id": "study-club/laptop",
+   "name": "laptop",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/laptop.png",
+   "width": 299,
+   "height": 255,
+   "tags": [
+    "computer",
+    "laptop",
+    "tech",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/laptop.webp"
+  },
+  {
+   "id": "study-club/headphones",
+   "name": "headphones",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/headphones.png",
+   "width": 193,
+   "height": 227,
+   "tags": [
+    "audio",
+    "headphones",
+    "music",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/headphones.webp"
+  },
+  {
+   "id": "study-club/laurel-mug",
+   "name": "laurel mug",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/laurel-mug.png",
+   "width": 144,
+   "height": 151,
+   "tags": [
+    "coffee",
+    "cup",
+    "drink",
+    "laurel",
+    "mug",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/laurel-mug.webp"
+  },
+  {
+   "id": "study-club/globe",
+   "name": "globe",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/globe.png",
+   "width": 234,
+   "height": 312,
+   "tags": [
+    "globe",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/globe.webp"
+  },
+  {
+   "id": "study-club/checklist-clipboard",
+   "name": "checklist clipboard",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/checklist-clipboard.png",
+   "width": 226,
+   "height": 279,
+   "tags": [
+    "checklist",
+    "clipboard",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/checklist-clipboard.webp"
+  },
+  {
+   "id": "study-club/calculator",
+   "name": "calculator",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/calculator.png",
+   "width": 175,
+   "height": 244,
+   "tags": [
+    "calculator",
+    "math",
+    "school",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/calculator.webp"
+  },
+  {
+   "id": "study-club/lavender-notebook",
+   "name": "lavender notebook",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/lavender-notebook.png",
+   "width": 253,
+   "height": 261,
+   "tags": [
+    "flower",
+    "lavender",
+    "notebook",
+    "plant",
+    "stationery",
+    "watercolor",
+    "writing"
+   ],
+   "thumb": "thumbs/study-club/lavender-notebook.webp"
+  },
+  {
+   "id": "study-club/desk-lamp-reading-nook",
+   "name": "desk lamp reading nook",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/desk-lamp-reading-nook.png",
+   "width": 429,
+   "height": 522,
+   "tags": [
+    "decor",
+    "desk",
+    "lamp",
+    "light",
+    "nook",
+    "reading",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/desk-lamp-reading-nook.webp"
+  },
+  {
+   "id": "study-club/sticky-notes",
+   "name": "sticky notes",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/sticky-notes.png",
+   "width": 144,
+   "height": 202,
+   "tags": [
+    "notes",
+    "stationery",
+    "sticky",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/sticky-notes.webp"
+  },
+  {
+   "id": "study-club/fountain-pen",
+   "name": "fountain pen",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/fountain-pen.png",
+   "width": 211,
+   "height": 260,
+   "tags": [
+    "fountain",
+    "pen",
+    "stationery",
+    "watercolor",
+    "writing"
+   ],
+   "thumb": "thumbs/study-club/fountain-pen.webp"
+  },
+  {
+   "id": "study-club/book-row",
+   "name": "book row",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/book-row.png",
+   "width": 214,
+   "height": 257,
+   "tags": [
+    "book",
+    "reading",
+    "row",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/book-row.webp"
+  },
+  {
+   "id": "study-club/open-journal",
+   "name": "open journal",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/open-journal.png",
+   "width": 437,
+   "height": 267,
+   "tags": [
+    "journal",
+    "notebook",
+    "open",
+    "watercolor",
+    "writing"
+   ],
+   "thumb": "thumbs/study-club/open-journal.webp"
+  },
+  {
+   "id": "study-club/washi-tape",
+   "name": "washi tape",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/washi-tape.png",
+   "width": 203,
+   "height": 161,
+   "tags": [
+    "craft",
+    "stationery",
+    "tape",
+    "washi",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/washi-tape.webp"
+  },
+  {
+   "id": "study-club/ink-bottle",
+   "name": "ink bottle",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/ink-bottle.png",
+   "width": 126,
+   "height": 140,
+   "tags": [
+    "bottle",
+    "ink",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/ink-bottle.webp"
+  },
+  {
+   "id": "study-club/canvas-backpack",
+   "name": "canvas backpack",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/canvas-backpack.png",
+   "width": 288,
+   "height": 286,
+   "tags": [
+    "backpack",
+    "bag",
+    "canvas",
+    "travel",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/canvas-backpack.webp"
+  },
+  {
+   "id": "study-club/graduation-cap",
+   "name": "graduation cap",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/graduation-cap.png",
+   "width": 336,
+   "height": 257,
+   "tags": [
+    "cap",
+    "graduation",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/graduation-cap.webp"
+  },
+  {
+   "id": "study-club/water-bottle",
+   "name": "water bottle",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/water-bottle.png",
+   "width": 120,
+   "height": 233,
+   "tags": [
+    "bottle",
+    "water",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/water-bottle.webp"
+  },
+  {
+   "id": "study-club/student-id-badge",
+   "name": "student id badge",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/student-id-badge.png",
+   "width": 128,
+   "height": 227,
+   "tags": [
+    "badge",
+    "id",
+    "patch",
+    "sticker",
+    "student",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/student-id-badge.webp"
+  },
+  {
+   "id": "study-club/book-stack",
+   "name": "book stack",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/book-stack.png",
+   "width": 242,
+   "height": 205,
+   "tags": [
+    "book",
+    "reading",
+    "stack",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/book-stack.webp"
+  },
+  {
+   "id": "study-club/round-glasses",
+   "name": "round glasses",
+   "theme": "study-club",
+   "style": "watercolor",
+   "file": "sprites/study-club/round-glasses.png",
+   "width": 338,
+   "height": 140,
+   "tags": [
+    "glasses",
+    "round",
+    "watercolor"
+   ],
+   "thumb": "thumbs/study-club/round-glasses.webp"
+  },
+  {
+   "id": "pixel/farmhouse",
+   "name": "farmhouse",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/farmhouse.png",
+   "width": 404,
+   "height": 289,
+   "tags": [
+    "farmhouse",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/farmhouse.webp"
+  },
+  {
+   "id": "pixel/strawberry-shop-sign",
+   "name": "strawberry shop sign",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/strawberry-shop-sign.png",
+   "width": 203,
+   "height": 231,
+   "tags": [
+    "pixel-art",
+    "shop",
+    "sign",
+    "strawberry"
+   ],
+   "thumb": "thumbs/pixel/strawberry-shop-sign.webp"
+  },
+  {
+   "id": "pixel/windmill",
+   "name": "windmill",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/windmill.png",
+   "width": 256,
+   "height": 285,
+   "tags": [
+    "pixel-art",
+    "windmill"
+   ],
+   "thumb": "thumbs/pixel/windmill.webp"
+  },
+  {
+   "id": "pixel/cherry-blossom-tree",
+   "name": "cherry blossom tree",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/cherry-blossom-tree.png",
+   "width": 256,
+   "height": 267,
+   "tags": [
+    "blossom",
+    "cherry",
+    "nature",
+    "pixel-art",
+    "plant",
+    "tree"
+   ],
+   "thumb": "thumbs/pixel/cherry-blossom-tree.webp"
+  },
+  {
+   "id": "pixel/signpost",
+   "name": "signpost",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/signpost.png",
+   "width": 165,
+   "height": 275,
+   "tags": [
+    "pixel-art",
+    "signpost"
+   ],
+   "thumb": "thumbs/pixel/signpost.webp"
+  },
+  {
+   "id": "pixel/notice-board",
+   "name": "notice board",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/notice-board.png",
+   "width": 243,
+   "height": 249,
+   "tags": [
+    "board",
+    "notice",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/notice-board.webp"
+  },
+  {
+   "id": "pixel/wishing-well",
+   "name": "wishing well",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/wishing-well.png",
+   "width": 234,
+   "height": 218,
+   "tags": [
+    "pixel-art",
+    "well",
+    "wishing"
+   ],
+   "thumb": "thumbs/pixel/wishing-well.webp"
+  },
+  {
+   "id": "pixel/lantern",
+   "name": "lantern",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/lantern.png",
+   "width": 134,
+   "height": 189,
+   "tags": [
+    "lantern",
+    "light",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/lantern.webp"
+  },
+  {
+   "id": "pixel/market-stall",
+   "name": "market stall",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/market-stall.png",
+   "width": 336,
+   "height": 189,
+   "tags": [
+    "market",
+    "pixel-art",
+    "stall"
+   ],
+   "thumb": "thumbs/pixel/market-stall.webp"
+  },
+  {
+   "id": "pixel/carrot-basket",
+   "name": "carrot basket",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/carrot-basket.png",
+   "width": 190,
+   "height": 165,
+   "tags": [
+    "basket",
+    "carrot",
+    "food",
+    "pixel-art",
+    "vegetable"
+   ],
+   "thumb": "thumbs/pixel/carrot-basket.webp"
+  },
+  {
+   "id": "pixel/firefly-jar",
+   "name": "firefly jar",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/firefly-jar.png",
+   "width": 136,
+   "height": 169,
+   "tags": [
+    "firefly",
+    "jar",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/firefly-jar.webp"
+  },
+  {
+   "id": "pixel/watering-can",
+   "name": "watering can",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/watering-can.png",
+   "width": 214,
+   "height": 166,
+   "tags": [
+    "can",
+    "pixel-art",
+    "watering"
+   ],
+   "thumb": "thumbs/pixel/watering-can.webp"
+  },
+  {
+   "id": "pixel/seed-packets",
+   "name": "seed packets",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/seed-packets.png",
+   "width": 155,
+   "height": 147,
+   "tags": [
+    "packets",
+    "pixel-art",
+    "seed"
+   ],
+   "thumb": "thumbs/pixel/seed-packets.webp"
+  },
+  {
+   "id": "pixel/bunny-with-carrot",
+   "name": "bunny with carrot",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/bunny-with-carrot.png",
+   "width": 160,
+   "height": 151,
+   "tags": [
+    "animal",
+    "bunny",
+    "carrot",
+    "food",
+    "pixel-art",
+    "rabbit",
+    "vegetable",
+    "with"
+   ],
+   "thumb": "thumbs/pixel/bunny-with-carrot.webp"
+  },
+  {
+   "id": "pixel/corgi",
+   "name": "corgi",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/corgi.png",
+   "width": 159,
+   "height": 151,
+   "tags": [
+    "animal",
+    "corgi",
+    "dog",
+    "pet",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/corgi.webp"
+  },
+  {
+   "id": "pixel/cow",
+   "name": "cow",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/cow.png",
+   "width": 211,
+   "height": 151,
+   "tags": [
+    "animal",
+    "cow",
+    "farm",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/cow.webp"
+  },
+  {
+   "id": "pixel/hen-and-chick",
+   "name": "hen and chick",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/hen-and-chick.png",
+   "width": 165,
+   "height": 145,
+   "tags": [
+    "and",
+    "animal",
+    "bird",
+    "chick",
+    "chicken",
+    "farm",
+    "hen",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/hen-and-chick.webp"
+  },
+  {
+   "id": "pixel/sheep",
+   "name": "sheep",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/sheep.png",
+   "width": 174,
+   "height": 144,
+   "tags": [
+    "animal",
+    "farm",
+    "pixel-art",
+    "sheep"
+   ],
+   "thumb": "thumbs/pixel/sheep.webp"
+  },
+  {
+   "id": "pixel/blueberry-crate",
+   "name": "blueberry crate",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/blueberry-crate.png",
+   "width": 222,
+   "height": 136,
+   "tags": [
+    "blueberry",
+    "crate",
+    "food",
+    "fruit",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/blueberry-crate.webp"
+  },
+  {
+   "id": "pixel/sleeping-cat",
+   "name": "sleeping cat",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/sleeping-cat.png",
+   "width": 190,
+   "height": 113,
+   "tags": [
+    "animal",
+    "cat",
+    "kitty",
+    "pet",
+    "pixel-art",
+    "sleeping"
+   ],
+   "thumb": "thumbs/pixel/sleeping-cat.webp"
+  },
+  {
+   "id": "pixel/greenhouse",
+   "name": "greenhouse",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/greenhouse.png",
+   "width": 265,
+   "height": 184,
+   "tags": [
+    "greenhouse",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/greenhouse.webp"
+  },
+  {
+   "id": "pixel/heart-mug",
+   "name": "heart mug",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/heart-mug.png",
+   "width": 149,
+   "height": 158,
+   "tags": [
+    "coffee",
+    "cup",
+    "drink",
+    "heart",
+    "love",
+    "mug",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/heart-mug.webp"
+  },
+  {
+   "id": "pixel/book-stack",
+   "name": "book stack",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/book-stack.png",
+   "width": 192,
+   "height": 164,
+   "tags": [
+    "book",
+    "pixel-art",
+    "reading",
+    "stack",
+    "study"
+   ],
+   "thumb": "thumbs/pixel/book-stack.webp"
+  },
+  {
+   "id": "pixel/vegetable-garden-bed",
+   "name": "vegetable garden bed",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/vegetable-garden-bed.png",
+   "width": 330,
+   "height": 151,
+   "tags": [
+    "bed",
+    "garden",
+    "pixel-art",
+    "vegetable"
+   ],
+   "thumb": "thumbs/pixel/vegetable-garden-bed.webp"
+  },
+  {
+   "id": "pixel/garden-bench",
+   "name": "garden bench",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/garden-bench.png",
+   "width": 286,
+   "height": 170,
+   "tags": [
+    "bench",
+    "garden",
+    "pixel-art"
+   ],
+   "thumb": "thumbs/pixel/garden-bench.webp"
+  },
+  {
+   "id": "pixel/berry-tart",
+   "name": "berry tart",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/berry-tart.png",
+   "width": 196,
+   "height": 129,
+   "tags": [
+    "berry",
+    "dessert",
+    "food",
+    "fruit",
+    "pixel-art",
+    "tart"
+   ],
+   "thumb": "thumbs/pixel/berry-tart.webp"
+  },
+  {
+   "id": "pixel/backpack",
+   "name": "backpack",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/backpack.png",
+   "width": 227,
+   "height": 220,
+   "tags": [
+    "backpack",
+    "bag",
+    "pixel-art",
+    "travel"
+   ],
+   "thumb": "thumbs/pixel/backpack.webp"
+  },
+  {
+   "id": "pixel/treasure-map",
+   "name": "treasure map",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/treasure-map.png",
+   "width": 261,
+   "height": 192,
+   "tags": [
+    "adventure",
+    "map",
+    "pixel-art",
+    "travel",
+    "treasure"
+   ],
+   "thumb": "thumbs/pixel/treasure-map.webp"
+  },
+  {
+   "id": "pixel/laptop",
+   "name": "laptop",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/laptop.png",
+   "width": 237,
+   "height": 184,
+   "tags": [
+    "computer",
+    "laptop",
+    "pixel-art",
+    "tech"
+   ],
+   "thumb": "thumbs/pixel/laptop.webp"
+  },
+  {
+   "id": "pixel/pocket-compass",
+   "name": "pocket compass",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/pocket-compass.png",
+   "width": 151,
+   "height": 194,
+   "tags": [
+    "adventure",
+    "compass",
+    "navigation",
+    "pixel-art",
+    "pocket",
+    "travel"
+   ],
+   "thumb": "thumbs/pixel/pocket-compass.webp"
+  },
+  {
+   "id": "pixel/sprout-calendar",
+   "name": "sprout calendar",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/sprout-calendar.png",
+   "width": 208,
+   "height": 183,
+   "tags": [
+    "calendar",
+    "pixel-art",
+    "sprout"
+   ],
+   "thumb": "thumbs/pixel/sprout-calendar.webp"
+  },
+  {
+   "id": "pixel/sketchbook",
+   "name": "sketchbook",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/sketchbook.png",
+   "width": 186,
+   "height": 188,
+   "tags": [
+    "art",
+    "drawing",
+    "pixel-art",
+    "sketchbook"
+   ],
+   "thumb": "thumbs/pixel/sketchbook.webp"
+  },
+  {
+   "id": "pixel/pen",
+   "name": "pen",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/pen.png",
+   "width": 75,
+   "height": 173,
+   "tags": [
+    "pen",
+    "pixel-art",
+    "stationery",
+    "writing"
+   ],
+   "thumb": "thumbs/pixel/pen.webp"
+  },
+  {
+   "id": "pixel/handheld-game-console",
+   "name": "handheld game console",
+   "theme": "pixel",
+   "style": "pixel-art",
+   "file": "sprites/pixel/handheld-game-console.png",
+   "width": 220,
+   "height": 140,
+   "tags": [
+    "console",
+    "game",
+    "gaming",
+    "handheld",
+    "pixel-art",
+    "tech"
+   ],
+   "thumb": "thumbs/pixel/handheld-game-console.webp"
+  },
+  {
+   "id": "cat-cafe/cat-cafe-storefront",
+   "name": "cat cafe storefront",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-cafe-storefront.png",
+   "width": 496,
+   "height": 394,
+   "tags": [
+    "animal",
+    "cafe",
+    "cat",
+    "illustrated",
+    "kitty",
+    "pet",
+    "storefront"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-cafe-storefront.webp"
+  },
+  {
+   "id": "cat-cafe/pastry-dome",
+   "name": "pastry dome",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/pastry-dome.png",
+   "width": 181,
+   "height": 227,
+   "tags": [
+    "dessert",
+    "dome",
+    "food",
+    "illustrated",
+    "pastry"
+   ],
+   "thumb": "thumbs/cat-cafe/pastry-dome.webp"
+  },
+  {
+   "id": "cat-cafe/cat-in-paper-bag",
+   "name": "cat in paper bag",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-in-paper-bag.png",
+   "width": 185,
+   "height": 217,
+   "tags": [
+    "animal",
+    "bag",
+    "cat",
+    "illustrated",
+    "in",
+    "kitty",
+    "paper",
+    "pet"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-in-paper-bag.webp"
+  },
+  {
+   "id": "cat-cafe/cat-latte-art",
+   "name": "cat latte art",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-latte-art.png",
+   "width": 222,
+   "height": 179,
+   "tags": [
+    "animal",
+    "art",
+    "cat",
+    "coffee",
+    "drink",
+    "illustrated",
+    "kitty",
+    "latte",
+    "pet"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-latte-art.webp"
+  },
+  {
+   "id": "cat-cafe/cat-napping-on-books",
+   "name": "cat napping on books",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-napping-on-books.png",
+   "width": 279,
+   "height": 232,
+   "tags": [
+    "animal",
+    "books",
+    "cat",
+    "illustrated",
+    "kitty",
+    "napping",
+    "on",
+    "pet",
+    "reading",
+    "study"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-napping-on-books.webp"
+  },
+  {
+   "id": "cat-cafe/strawberry-cake-slice",
+   "name": "strawberry cake slice",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/strawberry-cake-slice.png",
+   "width": 165,
+   "height": 180,
+   "tags": [
+    "cake",
+    "dessert",
+    "food",
+    "illustrated",
+    "slice",
+    "strawberry"
+   ],
+   "thumb": "thumbs/cat-cafe/strawberry-cake-slice.webp"
+  },
+  {
+   "id": "cat-cafe/cat-chalkboard-sign",
+   "name": "cat chalkboard sign",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-chalkboard-sign.png",
+   "width": 218,
+   "height": 241,
+   "tags": [
+    "animal",
+    "cat",
+    "chalkboard",
+    "illustrated",
+    "kitty",
+    "pet",
+    "sign"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-chalkboard-sign.webp"
+  },
+  {
+   "id": "cat-cafe/plant-bookshelf",
+   "name": "plant bookshelf",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/plant-bookshelf.png",
+   "width": 243,
+   "height": 274,
+   "tags": [
+    "bookshelf",
+    "illustrated",
+    "plant"
+   ],
+   "thumb": "thumbs/cat-cafe/plant-bookshelf.webp"
+  },
+  {
+   "id": "cat-cafe/cat-face-mug",
+   "name": "cat face mug",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-face-mug.png",
+   "width": 161,
+   "height": 150,
+   "tags": [
+    "animal",
+    "cat",
+    "coffee",
+    "cup",
+    "drink",
+    "face",
+    "illustrated",
+    "kitty",
+    "mug",
+    "pet"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-face-mug.webp"
+  },
+  {
+   "id": "cat-cafe/cat-in-bed",
+   "name": "cat in bed",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-in-bed.png",
+   "width": 259,
+   "height": 218,
+   "tags": [
+    "animal",
+    "bed",
+    "cat",
+    "illustrated",
+    "in",
+    "kitty",
+    "pet"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-in-bed.webp"
+  },
+  {
+   "id": "cat-cafe/french-press",
+   "name": "french press",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/french-press.png",
+   "width": 127,
+   "height": 190,
+   "tags": [
+    "french",
+    "illustrated",
+    "press"
+   ],
+   "thumb": "thumbs/cat-cafe/french-press.webp"
+  },
+  {
+   "id": "cat-cafe/paw-and-heart-cookies",
+   "name": "paw and heart cookies",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/paw-and-heart-cookies.png",
+   "width": 181,
+   "height": 156,
+   "tags": [
+    "and",
+    "baking",
+    "cookies",
+    "dessert",
+    "food",
+    "heart",
+    "illustrated",
+    "love",
+    "paw"
+   ],
+   "thumb": "thumbs/cat-cafe/paw-and-heart-cookies.webp"
+  },
+  {
+   "id": "cat-cafe/lavender-jar",
+   "name": "lavender jar",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/lavender-jar.png",
+   "width": 196,
+   "height": 280,
+   "tags": [
+    "flower",
+    "illustrated",
+    "jar",
+    "lavender",
+    "plant"
+   ],
+   "thumb": "thumbs/cat-cafe/lavender-jar.webp"
+  },
+  {
+   "id": "cat-cafe/cafe-table-and-chairs",
+   "name": "cafe table and chairs",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cafe-table-and-chairs.png",
+   "width": 671,
+   "height": 600,
+   "tags": [
+    "and",
+    "cafe",
+    "chairs",
+    "furniture",
+    "illustrated",
+    "table"
+   ],
+   "thumb": "thumbs/cat-cafe/cafe-table-and-chairs.webp"
+  },
+  {
+   "id": "cat-cafe/cat-laptop",
+   "name": "cat laptop",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-laptop.png",
+   "width": 326,
+   "height": 208,
+   "tags": [
+    "animal",
+    "cat",
+    "computer",
+    "illustrated",
+    "kitty",
+    "laptop",
+    "pet",
+    "tech"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-laptop.webp"
+  },
+  {
+   "id": "cat-cafe/paw-notebook",
+   "name": "paw notebook",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/paw-notebook.png",
+   "width": 234,
+   "height": 218,
+   "tags": [
+    "illustrated",
+    "notebook",
+    "paw",
+    "stationery",
+    "writing"
+   ],
+   "thumb": "thumbs/cat-cafe/paw-notebook.webp"
+  },
+  {
+   "id": "cat-cafe/cat-boba-tea",
+   "name": "cat boba tea",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-boba-tea.png",
+   "width": 129,
+   "height": 220,
+   "tags": [
+    "animal",
+    "boba",
+    "bubble-tea",
+    "cat",
+    "drink",
+    "illustrated",
+    "kitty",
+    "pet",
+    "tea"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-boba-tea.webp"
+  },
+  {
+   "id": "cat-cafe/cat-lantern",
+   "name": "cat lantern",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-lantern.png",
+   "width": 130,
+   "height": 208,
+   "tags": [
+    "animal",
+    "cat",
+    "illustrated",
+    "kitty",
+    "lantern",
+    "light",
+    "pet"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-lantern.webp"
+  },
+  {
+   "id": "cat-cafe/cookie-jar",
+   "name": "cookie jar",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cookie-jar.png",
+   "width": 146,
+   "height": 179,
+   "tags": [
+    "cookie",
+    "dessert",
+    "food",
+    "illustrated",
+    "jar"
+   ],
+   "thumb": "thumbs/cat-cafe/cookie-jar.webp"
+  },
+  {
+   "id": "cat-cafe/pen",
+   "name": "pen",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/pen.png",
+   "width": 57,
+   "height": 114,
+   "tags": [
+    "illustrated",
+    "pen",
+    "stationery",
+    "writing"
+   ],
+   "thumb": "thumbs/cat-cafe/pen.webp"
+  },
+  {
+   "id": "cat-cafe/happy-tabby-cat",
+   "name": "happy tabby cat",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/happy-tabby-cat.png",
+   "width": 266,
+   "height": 352,
+   "tags": [
+    "animal",
+    "cat",
+    "happy",
+    "illustrated",
+    "kitty",
+    "pet",
+    "tabby"
+   ],
+   "thumb": "thumbs/cat-cafe/happy-tabby-cat.webp"
+  },
+  {
+   "id": "cat-cafe/cat-ear-headphones",
+   "name": "cat ear headphones",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-ear-headphones.png",
+   "width": 223,
+   "height": 265,
+   "tags": [
+    "animal",
+    "audio",
+    "cat",
+    "ear",
+    "headphones",
+    "illustrated",
+    "kitty",
+    "music",
+    "pet"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-ear-headphones.webp"
+  },
+  {
+   "id": "cat-cafe/cat-planner",
+   "name": "cat planner",
+   "theme": "cat-cafe",
+   "style": "illustrated",
+   "file": "sprites/cat-cafe/cat-planner.png",
+   "width": 411,
+   "height": 328,
+   "tags": [
+    "animal",
+    "cat",
+    "illustrated",
+    "kitty",
+    "notebook",
+    "pet",
+    "planner",
+    "stationery"
+   ],
+   "thumb": "thumbs/cat-cafe/cat-planner.webp"
+  },
+  {
+   "id": "girly-pop/pink-rhinestone-flip-phone",
+   "name": "pink rhinestone flip phone",
+   "theme": "girly-pop",
+   "style": "photo",
+   "file": "sprites/girly-pop/pink-rhinestone-flip-phone.png",
+   "width": 271,
+   "height": 360,
+   "tags": [
+    "flip",
+    "phone",
+    "photo",
+    "pink",
+    "rhinestone"
+   ],
+   "thumb": "thumbs/girly-pop/pink-rhinestone-flip-phone.webp"
+  },
+  {
+   "id": "desktop/retro-computer-monitor",
+   "name": "retro computer monitor",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/retro-computer-monitor.png",
+   "width": 518,
+   "height": 433,
+   "tags": [
+    "computer",
+    "monitor",
+    "photo",
+    "retro"
+   ],
+   "thumb": "thumbs/desktop/retro-computer-monitor.webp"
+  },
+  {
+   "id": "desktop/green-red-book-stack",
+   "name": "green red book stack",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/green-red-book-stack.png",
+   "width": 384,
+   "height": 208,
+   "tags": [
+    "book",
+    "green",
+    "photo",
+    "reading",
+    "red",
+    "stack",
+    "study"
+   ],
+   "thumb": "thumbs/desktop/green-red-book-stack.webp"
+  },
+  {
+   "id": "desktop/globe-mug",
+   "name": "globe mug",
+   "theme": "desktop",
+   "style": "photo",
+   "file": "sprites/desktop/globe-mug.png",
+   "width": 199,
+   "height": 183,
+   "tags": [
+    "coffee",
+    "cup",
+    "drink",
+    "globe",
+    "mug",
+    "photo"
+   ],
+   "thumb": "thumbs/desktop/globe-mug.webp"
+  },
+  {
+   "id": "cottagecore/bunny",
+   "name": "bunny",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/bunny.png",
+   "width": 199,
+   "height": 316,
+   "tags": [
+    "animal",
+    "bunny",
+    "photo",
+    "rabbit"
+   ],
+   "thumb": "thumbs/cottagecore/bunny.webp"
+  },
+  {
+   "id": "cottagecore/embroidery-hoop",
+   "name": "embroidery hoop",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/embroidery-hoop.png",
+   "width": 329,
+   "height": 313,
+   "tags": [
+    "embroidery",
+    "hoop",
+    "photo"
+   ],
+   "thumb": "thumbs/cottagecore/embroidery-hoop.webp"
+  },
+  {
+   "id": "cottagecore/straw-sun-hat",
+   "name": "straw sun hat",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/straw-sun-hat.png",
+   "width": 346,
+   "height": 332,
+   "tags": [
+    "hat",
+    "photo",
+    "straw",
+    "sun"
+   ],
+   "thumb": "thumbs/cottagecore/straw-sun-hat.webp"
+  },
+  {
+   "id": "cottagecore/cottage-polaroid",
+   "name": "cottage polaroid",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/cottage-polaroid.png",
+   "width": 220,
+   "height": 239,
+   "tags": [
+    "cottage",
+    "memory",
+    "photo",
+    "polaroid"
+   ],
+   "thumb": "thumbs/cottagecore/cottage-polaroid.webp"
+  },
+  {
+   "id": "cottagecore/strawberry-basket",
+   "name": "strawberry basket",
+   "theme": "cottagecore",
+   "style": "photo",
+   "file": "sprites/cottagecore/strawberry-basket.png",
+   "width": 278,
+   "height": 234,
+   "tags": [
+    "basket",
+    "photo",
+    "strawberry"
+   ],
+   "thumb": "thumbs/cottagecore/strawberry-basket.webp"
+  },
+  {
+   "id": "spa/pink-water-bottle",
+   "name": "pink water bottle",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/pink-water-bottle.png",
+   "width": 124,
+   "height": 268,
+   "tags": [
+    "bottle",
+    "pink",
+    "water",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/pink-water-bottle.webp"
+  },
+  {
+   "id": "spa/smoothie-bowl",
+   "name": "smoothie bowl",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/smoothie-bowl.png",
+   "width": 230,
+   "height": 190,
+   "tags": [
+    "bowl",
+    "decor",
+    "kitchen",
+    "smoothie",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/smoothie-bowl.webp"
+  },
+  {
+   "id": "spa/glass-candle",
+   "name": "glass candle",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/glass-candle.png",
+   "width": 154,
+   "height": 197,
+   "tags": [
+    "candle",
+    "decor",
+    "glass",
+    "light",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/glass-candle.webp"
+  },
+  {
+   "id": "spa/reed-diffuser",
+   "name": "reed diffuser",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/reed-diffuser.png",
+   "width": 138,
+   "height": 258,
+   "tags": [
+    "diffuser",
+    "reed",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/reed-diffuser.webp"
+  },
+  {
+   "id": "spa/jade-roller-and-gua-sha",
+   "name": "jade roller and gua sha",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/jade-roller-and-gua-sha.png",
+   "width": 234,
+   "height": 268,
+   "tags": [
+    "and",
+    "gua",
+    "jade",
+    "roller",
+    "sha",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/jade-roller-and-gua-sha.webp"
+  },
+  {
+   "id": "spa/lavender-oil",
+   "name": "lavender oil",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/lavender-oil.png",
+   "width": 277,
+   "height": 215,
+   "tags": [
+    "flower",
+    "lavender",
+    "oil",
+    "plant",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/lavender-oil.webp"
+  },
+  {
+   "id": "spa/silk-sleep-mask",
+   "name": "silk sleep mask",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/silk-sleep-mask.png",
+   "width": 210,
+   "height": 104,
+   "tags": [
+    "mask",
+    "silk",
+    "sleep",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/silk-sleep-mask.webp"
+  },
+  {
+   "id": "spa/yoga-mat-and-block",
+   "name": "yoga mat and block",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/yoga-mat-and-block.png",
+   "width": 380,
+   "height": 180,
+   "tags": [
+    "and",
+    "block",
+    "fitness",
+    "mat",
+    "watercolor",
+    "wellness",
+    "yoga"
+   ],
+   "thumb": "thumbs/spa/yoga-mat-and-block.webp"
+  },
+  {
+   "id": "spa/lotus-journal",
+   "name": "lotus journal",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/lotus-journal.png",
+   "width": 213,
+   "height": 231,
+   "tags": [
+    "journal",
+    "lotus",
+    "notebook",
+    "watercolor",
+    "writing"
+   ],
+   "thumb": "thumbs/spa/lotus-journal.webp"
+  },
+  {
+   "id": "spa/potted-plant",
+   "name": "potted plant",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/potted-plant.png",
+   "width": 256,
+   "height": 312,
+   "tags": [
+    "plant",
+    "potted",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/potted-plant.webp"
+  },
+  {
+   "id": "spa/pump-bottle",
+   "name": "pump bottle",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/pump-bottle.png",
+   "width": 100,
+   "height": 232,
+   "tags": [
+    "bottle",
+    "pump",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/pump-bottle.webp"
+  },
+  {
+   "id": "spa/salt-lamp",
+   "name": "salt lamp",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/salt-lamp.png",
+   "width": 180,
+   "height": 239,
+   "tags": [
+    "decor",
+    "lamp",
+    "light",
+    "salt",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/salt-lamp.webp"
+  },
+  {
+   "id": "spa/serum-dropper",
+   "name": "serum dropper",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/serum-dropper.png",
+   "width": 94,
+   "height": 263,
+   "tags": [
+    "dropper",
+    "serum",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/serum-dropper.webp"
+  },
+  {
+   "id": "spa/stones-and-candle",
+   "name": "stones and candle",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/stones-and-candle.png",
+   "width": 243,
+   "height": 252,
+   "tags": [
+    "and",
+    "candle",
+    "decor",
+    "light",
+    "stones",
+    "watercolor",
+    "zen"
+   ],
+   "thumb": "thumbs/spa/stones-and-candle.webp"
+  },
+  {
+   "id": "spa/stacked-stones",
+   "name": "stacked stones",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/stacked-stones.png",
+   "width": 260,
+   "height": 188,
+   "tags": [
+    "stacked",
+    "stones",
+    "watercolor",
+    "zen"
+   ],
+   "thumb": "thumbs/spa/stacked-stones.webp"
+  },
+  {
+   "id": "spa/lotus-succulent",
+   "name": "lotus succulent",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/lotus-succulent.png",
+   "width": 205,
+   "height": 222,
+   "tags": [
+    "lotus",
+    "succulent",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/lotus-succulent.webp"
+  },
+  {
+   "id": "spa/chamomile-tea",
+   "name": "chamomile tea",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/chamomile-tea.png",
+   "width": 241,
+   "height": 215,
+   "tags": [
+    "chamomile",
+    "tea",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/chamomile-tea.webp"
+  },
+  {
+   "id": "spa/rolled-towels",
+   "name": "rolled towels",
+   "theme": "spa",
+   "style": "watercolor",
+   "file": "sprites/spa/rolled-towels.png",
+   "width": 391,
+   "height": 262,
+   "tags": [
+    "rolled",
+    "towels",
+    "watercolor"
+   ],
+   "thumb": "thumbs/spa/rolled-towels.webp"
+  },
+  {
+   "id": "letters/letter-b-1",
+   "name": "letter b 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-b-1.png",
+   "width": 117,
+   "height": 146,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-b",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-b-1.webp"
+  },
+  {
+   "id": "letters/letter-b-2",
+   "name": "letter b 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-b-2.png",
+   "width": 110,
+   "height": 144,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-b",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-b-2.webp"
+  },
+  {
+   "id": "letters/letter-b-3",
+   "name": "letter b 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-b-3.png",
+   "width": 101,
+   "height": 147,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-b",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-b-3.webp"
+  },
+  {
+   "id": "letters/letter-a-1",
+   "name": "letter a 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-a-1.png",
+   "width": 125,
+   "height": 147,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-a",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-a-1.webp"
+  },
+  {
+   "id": "letters/letter-a-2",
+   "name": "letter a 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-a-2.png",
+   "width": 168,
+   "height": 146,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-a",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-a-2.webp"
+  },
+  {
+   "id": "letters/letter-a-3",
+   "name": "letter a 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-a-3.png",
+   "width": 144,
+   "height": 147,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-a",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-a-3.webp"
+  },
+  {
+   "id": "letters/letter-d-1",
+   "name": "letter d 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-d-1.png",
+   "width": 114,
+   "height": 141,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-d",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-d-1.webp"
+  },
+  {
+   "id": "letters/letter-d-2",
+   "name": "letter d 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-d-2.png",
+   "width": 108,
+   "height": 144,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-d",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-d-2.webp"
+  },
+  {
+   "id": "letters/letter-d-3",
+   "name": "letter d 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-d-3.png",
+   "width": 118,
+   "height": 147,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-d",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-d-3.webp"
+  },
+  {
+   "id": "letters/letter-c-1",
+   "name": "letter c 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-c-1.png",
+   "width": 145,
+   "height": 148,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-c",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-c-1.webp"
+  },
+  {
+   "id": "letters/letter-c-2",
+   "name": "letter c 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-c-2.png",
+   "width": 120,
+   "height": 144,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-c",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-c-2.webp"
+  },
+  {
+   "id": "letters/letter-c-3",
+   "name": "letter c 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-c-3.png",
+   "width": 111,
+   "height": 145,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-c",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-c-3.webp"
+  },
+  {
+   "id": "letters/letter-f-1",
+   "name": "letter f 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-f-1.png",
+   "width": 92,
+   "height": 148,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-f",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-f-1.webp"
+  },
+  {
+   "id": "letters/letter-f-2",
+   "name": "letter f 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-f-2.png",
+   "width": 92,
+   "height": 152,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-f",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-f-2.webp"
+  },
+  {
+   "id": "letters/letter-f-3",
+   "name": "letter f 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-f-3.png",
+   "width": 102,
+   "height": 153,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-f",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-f-3.webp"
+  },
+  {
+   "id": "letters/letter-e-1",
+   "name": "letter e 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-e-1.png",
+   "width": 134,
+   "height": 150,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-e",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-e-1.webp"
+  },
+  {
+   "id": "letters/letter-e-2",
+   "name": "letter e 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-e-2.png",
+   "width": 120,
+   "height": 154,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-e",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-e-2.webp"
+  },
+  {
+   "id": "letters/letter-e-3",
+   "name": "letter e 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-e-3.png",
+   "width": 115,
+   "height": 157,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-e",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-e-3.webp"
+  },
+  {
+   "id": "letters/letter-h-1",
+   "name": "letter h 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-h-1.png",
+   "width": 129,
+   "height": 155,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-h",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-h-1.webp"
+  },
+  {
+   "id": "letters/letter-h-2",
+   "name": "letter h 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-h-2.png",
+   "width": 115,
+   "height": 153,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-h",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-h-2.webp"
+  },
+  {
+   "id": "letters/letter-h-3",
+   "name": "letter h 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-h-3.png",
+   "width": 122,
+   "height": 151,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-h",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-h-3.webp"
+  },
+  {
+   "id": "letters/letter-g-1",
+   "name": "letter g 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-g-1.png",
+   "width": 132,
+   "height": 152,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-g",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-g-1.webp"
+  },
+  {
+   "id": "letters/letter-g-2",
+   "name": "letter g 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-g-2.png",
+   "width": 118,
+   "height": 152,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-g",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-g-2.webp"
+  },
+  {
+   "id": "letters/letter-g-3",
+   "name": "letter g 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-g-3.png",
+   "width": 89,
+   "height": 139,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-g",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-g-3.webp"
+  },
+  {
+   "id": "letters/letter-k-1",
+   "name": "letter k 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-k-1.png",
+   "width": 124,
+   "height": 154,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-k",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-k-1.webp"
+  },
+  {
+   "id": "letters/letter-j-1",
+   "name": "letter j 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-j-1.png",
+   "width": 63,
+   "height": 152,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-j",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-j-1.webp"
+  },
+  {
+   "id": "letters/letter-k-2",
+   "name": "letter k 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-k-2.png",
+   "width": 95,
+   "height": 149,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-k",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-k-2.webp"
+  },
+  {
+   "id": "letters/letter-j-2",
+   "name": "letter j 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-j-2.png",
+   "width": 88,
+   "height": 151,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-j",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-j-2.webp"
+  },
+  {
+   "id": "letters/letter-j-3",
+   "name": "letter j 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-j-3.png",
+   "width": 81,
+   "height": 149,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-j",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-j-3.webp"
+  },
+  {
+   "id": "letters/letter-i-1",
+   "name": "letter i 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-i-1.png",
+   "width": 102,
+   "height": 153,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-i",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-i-1.webp"
+  },
+  {
+   "id": "letters/letter-i-2",
+   "name": "letter i 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-i-2.png",
+   "width": 88,
+   "height": 153,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-i",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-i-2.webp"
+  },
+  {
+   "id": "letters/letter-i-3",
+   "name": "letter i 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-i-3.png",
+   "width": 68,
+   "height": 152,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-i",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-i-3.webp"
+  },
+  {
+   "id": "letters/letter-m-1",
+   "name": "letter m 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-m-1.png",
+   "width": 149,
+   "height": 156,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-m",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-m-1.webp"
+  },
+  {
+   "id": "letters/letter-m-2",
+   "name": "letter m 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-m-2.png",
+   "width": 159,
+   "height": 151,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-m",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-m-2.webp"
+  },
+  {
+   "id": "letters/letter-ml-1",
+   "name": "letter ml 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-ml-1.png",
+   "width": 192,
+   "height": 154,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-ml",
+    "ml",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-ml-1.webp"
+  },
+  {
+   "id": "letters/letter-l-1",
+   "name": "letter l 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-l-1.png",
+   "width": 70,
+   "height": 154,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-l",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-l-1.webp"
+  },
+  {
+   "id": "letters/letter-l-2",
+   "name": "letter l 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-l-2.png",
+   "width": 84,
+   "height": 151,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-l",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-l-2.webp"
+  },
+  {
+   "id": "letters/letter-l-3",
+   "name": "letter l 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-l-3.png",
+   "width": 98,
+   "height": 152,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-l",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-l-3.webp"
+  },
+  {
+   "id": "letters/letter-o-1",
+   "name": "letter o 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-o-1.png",
+   "width": 137,
+   "height": 142,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-o",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-o-1.webp"
+  },
+  {
+   "id": "letters/letter-o-2",
+   "name": "letter o 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-o-2.png",
+   "width": 108,
+   "height": 140,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-o",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-o-2.webp"
+  },
+  {
+   "id": "letters/letter-n-1",
+   "name": "letter n 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-n-1.png",
+   "width": 113,
+   "height": 142,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-n",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-n-1.webp"
+  },
+  {
+   "id": "letters/letter-o-3",
+   "name": "letter o 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-o-3.png",
+   "width": 108,
+   "height": 140,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-o",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-o-3.webp"
+  },
+  {
+   "id": "letters/letter-n-2",
+   "name": "letter n 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-n-2.png",
+   "width": 108,
+   "height": 139,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-n",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-n-2.webp"
+  },
+  {
+   "id": "letters/letter-n-3",
+   "name": "letter n 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-n-3.png",
+   "width": 143,
+   "height": 138,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-n",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-n-3.webp"
+  },
+  {
+   "id": "letters/letter-q-1",
+   "name": "letter q 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-q-1.png",
+   "width": 87,
+   "height": 144,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-q",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-q-1.webp"
+  },
+  {
+   "id": "letters/letter-q-2",
+   "name": "letter q 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-q-2.png",
+   "width": 129,
+   "height": 142,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-q",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-q-2.webp"
+  },
+  {
+   "id": "letters/letter-q-3",
+   "name": "letter q 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-q-3.png",
+   "width": 115,
+   "height": 142,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-q",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-q-3.webp"
+  },
+  {
+   "id": "letters/letter-p-1",
+   "name": "letter p 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-p-1.png",
+   "width": 102,
+   "height": 142,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-p",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-p-1.webp"
+  },
+  {
+   "id": "letters/letter-p-2",
+   "name": "letter p 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-p-2.png",
+   "width": 125,
+   "height": 140,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-p",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-p-2.webp"
+  },
+  {
+   "id": "letters/letter-p-3",
+   "name": "letter p 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-p-3.png",
+   "width": 105,
+   "height": 141,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-p",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-p-3.webp"
+  },
+  {
+   "id": "letters/letter-s-1",
+   "name": "letter s 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-s-1.png",
+   "width": 134,
+   "height": 148,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-s",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-s-1.webp"
+  },
+  {
+   "id": "letters/letter-s-2",
+   "name": "letter s 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-s-2.png",
+   "width": 112,
+   "height": 145,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-s",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-s-2.webp"
+  },
+  {
+   "id": "letters/letter-r-1",
+   "name": "letter r 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-r-1.png",
+   "width": 131,
+   "height": 145,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-r",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-r-1.webp"
+  },
+  {
+   "id": "letters/letter-r-2",
+   "name": "letter r 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-r-2.png",
+   "width": 97,
+   "height": 145,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-r",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-r-2.webp"
+  },
+  {
+   "id": "letters/letter-r-3",
+   "name": "letter r 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-r-3.png",
+   "width": 130,
+   "height": 147,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-r",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-r-3.webp"
+  },
+  {
+   "id": "letters/letter-s-3",
+   "name": "letter s 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-s-3.png",
+   "width": 95,
+   "height": 138,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-s",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-s-3.webp"
+  },
+  {
+   "id": "letters/letter-u-1",
+   "name": "letter u 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-u-1.png",
+   "width": 117,
+   "height": 146,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-u",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-u-1.webp"
+  },
+  {
+   "id": "letters/letter-u-2",
+   "name": "letter u 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-u-2.png",
+   "width": 107,
+   "height": 145,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-u",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-u-2.webp"
+  },
+  {
+   "id": "letters/letter-u-3",
+   "name": "letter u 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-u-3.png",
+   "width": 123,
+   "height": 144,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-u",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-u-3.webp"
+  },
+  {
+   "id": "letters/letter-t-1",
+   "name": "letter t 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-t-1.png",
+   "width": 96,
+   "height": 143,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-t",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-t-1.webp"
+  },
+  {
+   "id": "letters/letter-t-2",
+   "name": "letter t 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-t-2.png",
+   "width": 95,
+   "height": 144,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-t",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-t-2.webp"
+  },
+  {
+   "id": "letters/letter-t-3",
+   "name": "letter t 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-t-3.png",
+   "width": 87,
+   "height": 144,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-t",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-t-3.webp"
+  },
+  {
+   "id": "letters/letter-w-1",
+   "name": "letter w 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-w-1.png",
+   "width": 150,
+   "height": 146,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-w",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-w-1.webp"
+  },
+  {
+   "id": "letters/letter-w-2",
+   "name": "letter w 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-w-2.png",
+   "width": 111,
+   "height": 150,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-w",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-w-2.webp"
+  },
+  {
+   "id": "letters/letter-v-1",
+   "name": "letter v 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-v-1.png",
+   "width": 111,
+   "height": 150,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-v",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-v-1.webp"
+  },
+  {
+   "id": "letters/letter-v-2",
+   "name": "letter v 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-v-2.png",
+   "width": 160,
+   "height": 147,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-v",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-v-2.webp"
+  },
+  {
+   "id": "letters/letter-w-3",
+   "name": "letter w 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-w-3.png",
+   "width": 131,
+   "height": 147,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-w",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-w-3.webp"
+  },
+  {
+   "id": "letters/letter-z-1",
+   "name": "letter z 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-z-1.png",
+   "width": 99,
+   "height": 148,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-z",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-z-1.webp"
+  },
+  {
+   "id": "letters/letter-y-1",
+   "name": "letter y 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-y-1.png",
+   "width": 103,
+   "height": 143,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-y",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-y-1.webp"
+  },
+  {
+   "id": "letters/letter-y-2",
+   "name": "letter y 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-y-2.png",
+   "width": 95,
+   "height": 149,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-y",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-y-2.webp"
+  },
+  {
+   "id": "letters/letter-y-3",
+   "name": "letter y 3",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-y-3.png",
+   "width": 121,
+   "height": 150,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-y",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-y-3.webp"
+  },
+  {
+   "id": "letters/letter-x-1",
+   "name": "letter x 1",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-x-1.png",
+   "width": 95,
+   "height": 144,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-x",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-x-1.webp"
+  },
+  {
+   "id": "letters/letter-x-2",
+   "name": "letter x 2",
+   "theme": "letters",
+   "style": "collage",
+   "file": "sprites/letters/letter-x-2.png",
+   "width": 159,
+   "height": 140,
+   "tags": [
+    "alphabet",
+    "collage",
+    "letter",
+    "letter-x",
+    "typography"
+   ],
+   "thumb": "thumbs/letters/letter-x-2.webp"
+  }
+ ]
+}
